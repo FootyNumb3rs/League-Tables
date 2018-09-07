@@ -438,20 +438,29 @@
 
 
            // Projected Points
+                var num_games = {'PL':38,
+                          'BL1':34,
+                           'SA':38,
+                          'FL1':38,
+                          'PD':38
+                          }
   
          g.append('circle')
          .attr('r',3)
          .attr('fill','silver')
          .attr('cy',-4.7)
-         .attr('cx',projected_margin+(38)*(d.points/d.playedGames))
+         .attr('cx',function(d_){return projected_margin+(num_games[d_.l_id])*(d.points/d.playedGames)})
 
 
           g.append('rect')
          .attr('height',1.1)
-         .attr('width',(38)*(d.points/d.playedGames))
+         .attr('width',function(d_){return projected_margin+(num_games[d_.l_id])*(d.points/d.playedGames))
          .attr('fill','silver')
          .attr('y',-5.7)
          .attr('x',projected_margin)
+          
+    
+          
          
 
             // Current Points
