@@ -35,11 +35,14 @@
          var league_table = main_league_table
          var match_data = main_match_data
 
+         var table_type = 'HOME'
+         var league_id = 'PL'
 
-        function swapDataset(league_id,svg){
+
+        function swapDataset(svg){
         svg.selectAll('#table').remove()
         console.log('yo')
-        league_table = main_league_table.filter(k=> k.l_id == league_id) 
+        league_table = main_league_table.filter(k=> (k.l_id == league_id)&(k.table_type==table_type) ) 
         match_data = main_match_data.filter(k=> k.league_id == league_id)
         trans(['position'],1)
         generate_table(league_table,match_data)
@@ -97,7 +100,7 @@
 
       // SHIFTS
       var main_hshift = 50
-      var main_vshift = 75
+      var main_vshift = 100
 
       svg.append('text')
          .text('League Tables')
@@ -111,7 +114,7 @@
          .text('@FootyNumb3rs')
          .attr('font-size',20)
          .attr('x',main_hshift-12)
-         .attr('y',765)
+         .attr('y',800)
          .attr('font-family','Rajdhani')
          .attr('fill','grey')
          .attr('font-weight','bold')
@@ -125,13 +128,24 @@
          .attr('font-family','Libre Franklin')
          .attr('font-weight','bold')
 
+      svg.append('text')
+         .text('FILTER TABLE:')
+         .attr('font-size',15)
+         .attr('x',main_hshift-12)
+         .attr('y',main_vshift+35)
+         .attr('font-family','Libre Franklin')
+         .attr('font-weight','bold')
 
 
+
+      var filters = ['TOTAL','HOME','AWAY']
+       var x_locs_ = [176,218,270,455]
       var countries = ['PL','BL1','PD','SA']
-      var x_locs = [176,298,390,455]
+      var x_locs = [175,298,390,455]
       var widths_ = [115,82,57,60]
+      var widths__ = [40,45,42,60]
 
-      var league_id = {'PL':'Premier League',
+      var league_ids = {'PL':'Premier League',
                        'PD':'La Liga',
                        'SA':'Serie A',
                        'Ligue 1':'FL1',
@@ -157,7 +171,11 @@
          .on('mouseout',function(d){unhighlightMenuItem(d)
          d3.select(this).style("cursor", "default"); 
           })
-         .on('click',function(d){swapDataset(d,svg)})
+         .on('click',function(d){
+          league_id = d
+          swapDataset(svg)
+
+        })
 
       svg.append('g')
          .selectAll('text')
@@ -166,7 +184,7 @@
          .append('text')
           .attr('x',function(d,i){return x_locs[i]-4})
          .attr('y',main_vshift+10)
-         .text(function(d){return league_id[d]})
+         .text(function(d){return league_ids[d]})
          .attr('font-family','Arial')
          .attr('font-weight','normal')
          .attr('font-size',15)
@@ -180,12 +198,75 @@
          .on('mouseout',function(d){unhighlightMenuItem(d)
          d3.select(this).style("cursor", "default"); 
           })
-         .on('click',function(d){swapDataset(d,svg)})
+         .on('click',function(d){
+          league_id = d
+          swapDataset(svg)
+          })
          .attr('text-anchor','start')
+
+      svg.append('g')
+         .selectAll('rect')
+         .data(filters)
+         .enter()
+         .append('rect')
+          .attr('x',function(d,i){return x_locs_[i]-27})
+         .attr('y',main_vshift+20)
+         .text(function(d){return d})
+         .attr('height',19)
+         .attr('width',function(d,i){return widths__[i]})
+         .attr('opacity',0)
+         .attr('class',function(d){return d})
+         
+         .on('mouseover',function(d){
+          highlightMenuItem(d)
+          d3.select(this).style("cursor", "pointer"); 
+         })
+         .on('mouseout',function(d){unhighlightMenuItem(d)
+         d3.select(this).style("cursor", "default"); 
+          })
+         .on('click',function(d){
+          table_type = d
+          swapDataset(svg)
+        })
+        
+
+      svg.append('g')
+         .selectAll('text')
+         .data(filters)
+         .enter()
+         .append('text')
+          .attr('x',function(d,i){return x_locs_[i]-25})
+         .attr('y',main_vshift+35)
+         .text(function(d){return d[0] + d.slice(1).toLowerCase()})
+         .attr('font-family','Arial')
+         .attr('font-weight','normal')
+         .attr('font-size',15)
+         .attr('fill','black')
+         .attr('opacity',1)
+         .attr('id',function(d){return d})
+         
+         .on('mouseover',function(d){
+          highlightMenuItem(d)
+          d3.select(this).style("cursor", "pointer"); 
+         })
+         .on('mouseout',function(d){unhighlightMenuItem(d)
+         d3.select(this).style("cursor", "default"); 
+          })
+         
+         .on('click',function(d){
+          table_type = d
+          swapDataset(svg)
+          })
+          
+         .attr('text-anchor','start')
+         
+
+
+
 
       // COLUMNS ////////////////////////////////////////////////////////////////////////////
 
-
+      main_vshift = main_vshift+15
       // MARGINS
       var pos_margin = 0
       var crest_margin = pos_margin +10
@@ -269,8 +350,9 @@
           unhighlightMenuItem(columns[i])
          
         }).on('click',function(d,i){
-           d3.select('.'+columns[i]).on('click')
+
           d3.select('.'+columns[i]).attr('sort',d3.select('.'+columns[i]).attr('sort')*-1)
+
           trans([sort_keys[i],'position'],d3.select('.'+columns[i]).attr('sort'))
         })
 
@@ -298,10 +380,10 @@
       ////////////////////////////////////////////////////////////////////////////////////////
 
       ///// APPENDING LEAGUES ////////////////////////////////////////////////////////////////
-      swapDataset('PL',svg)
+
+      swapDataset(svg)
+
       function generate_table(leauge_table,match_data){
-
-
 
       // FONTS AND COLORS 
       var teamFont = 'Libre Franklin'
@@ -437,7 +519,7 @@
 
 
 
-         var num_games = {'PL':38,'SA':38,'FL1':38,'BL1':34,'PD':38}
+         var num_games = {'PL':38,'SA':37,'FL1':36,'BL1':34,'PD':34}
 
 
           // Projected Points
