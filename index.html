@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+        <title>Premier League Interactive</title>
+        <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+         <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js" type="text/javascript"></script>
+        <link href="https://fonts.googleapis.com/css?family=Abel|Alegreya+Sans+SC|Barlow+Semi+Condensed:100,200|Encode+Sans+Condensed:100|Exo+2|Heebo:300,400|Lekton|Montserrat:200,300|News+Cycle|Open+Sans|Rajdhani:300|Roboto+Mono:300|Source+Sans+Pro:300|Varela+Round|Yantramanav:300|Raleway:800|Libre+Franklin|Questrial|Archivo" rel="stylesheet">
+
+
+        </style>
+</head>
+<body>
+    <script type="text/javascript">
+
+      var main_league_table = []
+       var main_match_data = []
+
+
+
+      function loadData(callback,league_id){
+      d3.csv("league_table.csv", function(data) {
+      main_league_table = data.map(function(d) { return d; }); 
+      });
+      d3.csv("match_data.csv", function(data) {
+      main_match_data = data.map(function(d) { return d; });
+      callback()
+      });
+
+    }
+    loadData(initiate)
+
+      ///////////////// INTERNAL METHODS
+      function initiate(){
+         var league_table = main_league_table
+         var match_data = main_match_data
+
+
+        function swapDataset(league_id,svg){
+        svg.selectAll('#table').remove()
+        console.log('yo')
+        league_table = main_league_table.filter(k=> k.l_id == league_id) 
+        match_data = main_match_data.filter(k=> k.league_id == league_id)
+        trans(['position'],1)
+        generate_table(league_table,match_data)
+       }
+
+       
+      function createScale(data,c1,c2,c3){
+        return(
+           d3.scaleLinear()
+            .domain([Math.min(...data),(Math.min(...data)+Math.max(...data))/2,Math.max(...data)])
+            .interpolate(d3.interpolateLab)
+            .range([c1,c2,c3])
+          )}
+
+      // TRANSITION FUNCTION
+      function  trans(sortkey,i){
+          var inactive_columns = ['Points Projection','Fixtures','shortName']
+          if (inactive_columns.includes(sortkey[0])){
+                      return null}
+      if (i==1){
+      var lg = league_table.sort(function(a, b) { return d3.ascending(+a[sortkey[0]], +b[sortkey[0]]) || a.shortName.localeCompare(b.shortName)   })}
+      else {
+     var lg = league_table.sort(function(a, b) { return d3.ascending(+b[sortkey[0]], +a[sortkey[0]])|| a.shortName.localeCompare(b.shortName)})}
+
+
+
+
+
+     console.log(lg)
+      lg.forEach(function(d,i){
+        var class_=d.l_id+d.position
+        console.log(class_.split(' ').pop().replace("'","_"))
+        svg.selectAll("."+class_.split(' ').pop().replace("'","_"))
+            .transition()
+            .duration(50)
+            .attr('transform','translate('+String(main_hshift)+','+String(i*30+75+main_vshift)+')')  
+      })}
+
+      // HIGHLIGHT MENU ITEMS
+      function highlightMenuItem(column){
+      d3.select('#'+column).attr('fill','white')
+      d3.select('.'+column).attr('opacity',1)
+        }
+      function unhighlightMenuItem(column){
+      d3.select('#'+column).attr('fill','black')
+      d3.select('.'+column).attr('opacity',0)
+        }
+
+      // SVG AND BACKGROUND COLOR
+      var svg = d3.select('body').append('svg').attr('height',850).attr('width',1500)
+      svg.append('rect')
+         .attr('height',850)
+         .attr('width',1500)
+         .attr('fill',' #f2f2f2')
+
+      // SHIFTS
+      var main_hshift = 50
+      var main_vshift = 75
+
+      svg.append('text')
+         .text('League Tables')
+         .attr('font-size',30)
+         .attr('x',main_hshift-12)
+         .attr('y',main_vshift-25)
+         .attr('font-family','Arial')
+         .attr('font-weight','bold')
+
+    svg.append('text')
+         .text('@FootyNumb3rs')
+         .attr('font-size',20)
+         .attr('x',main_hshift-12)
+         .attr('y',765)
+         .attr('font-family','Rajdhani')
+         .attr('fill','grey')
+         .attr('font-weight','bold')
+
+
+      svg.append('text')
+         .text('SELECT LEAGUE:')
+         .attr('font-size',15)
+         .attr('x',main_hshift-12)
+         .attr('y',main_vshift+10)
+         .attr('font-family','Libre Franklin')
+         .attr('font-weight','bold')
+
+
+
+      var countries = ['PL','BL1','PD','SA']
+      var x_locs = [176,298,390,455]
+      var widths_ = [115,82,57,60]
+
+      var league_id = {'PL':'Premier League',
+                       'PD':'La Liga',
+                       'SA':'Serie A',
+                       'Ligue 1':'FL1',
+                       'BL1':'Bundesliga'}
+
+
+      svg.append('g')
+         .selectAll('rect')
+         .data(countries)
+         .enter()
+         .append('rect')
+          .attr('x',function(d,i){return x_locs[i]-8})
+         .attr('y',main_vshift-13)
+         .text(function(d){return d})
+         .attr('height',30)
+         .attr('width',function(d,i){return widths_[i]})
+         .attr('opacity',0)
+         .attr('class',function(d){return d})
+         .on('mouseover',function(d){
+          highlightMenuItem(d)
+          d3.select(this).style("cursor", "pointer"); 
+         })
+         .on('mouseout',function(d){unhighlightMenuItem(d)
+         d3.select(this).style("cursor", "default"); 
+          })
+         .on('click',function(d){swapDataset(d,svg)})
+
+      svg.append('g')
+         .selectAll('text')
+         .data(countries)
+         .enter()
+         .append('text')
+          .attr('x',function(d,i){return x_locs[i]-4})
+         .attr('y',main_vshift+10)
+         .text(function(d){return league_id[d]})
+         .attr('font-family','Arial')
+         .attr('font-weight','normal')
+         .attr('font-size',15)
+         .attr('fill','black')
+         .attr('opacity',1)
+         .attr('id',function(d){return d})
+         .on('mouseover',function(d){
+          highlightMenuItem(d)
+          d3.select(this).style("cursor", "pointer"); 
+         })
+         .on('mouseout',function(d){unhighlightMenuItem(d)
+         d3.select(this).style("cursor", "default"); 
+          })
+         .on('click',function(d){swapDataset(d,svg)})
+         .attr('text-anchor','start')
+
+      // COLUMNS ////////////////////////////////////////////////////////////////////////////
+
+
+      // MARGINS
+      var pos_margin = 0
+      var crest_margin = pos_margin +10
+      var name_margin = crest_margin + 20
+      var stats_margin = name_margin + 167.5
+      var projected_margin = stats_margin + 190
+      var dots_margin = projected_margin+150
+
+
+      var sort_keys = ['position','shortName','playedGames','points','won','lost','draw','goalsFor','goalsAgainst']  
+      var post_columns = sort_keys.slice(2)
+      var key_map = {}
+      var columns = ['Pos','Team','GP','Pts','W','L','D','GF','GA','Points Projection','Fixtures']
+      var widths  = [pos_margin+35,stats_margin-name_margin-30,28,29,22,22,22,21,22]
+
+     
+
+      // COLUMN PANELS
+      var columnPanel = svg.append('g').attr('transform','translate('+String(main_hshift-20)+','+String(main_vshift)+')')
+
+      // INTERACTIVE SORT     
+      columnPanel.append('g')
+         .selectAll('rect')
+         .data([pos_margin-10,name_margin,stats_margin-17,stats_margin+8,stats_margin+39,stats_margin+65,stats_margin+91,stats_margin+117,stats_margin+143,projected_margin-10,dots_margin-10])
+         .enter()
+         .append('rect')
+         .attr('x', function(d){return d+15})
+         .attr('y',45-20)
+         .attr('fill','black')
+         .attr('opacity',0)
+         .attr('width',function(d,i){return widths[i]})
+         .attr('height',30)
+         .attr('class',function(d,i){return columns[i]})
+         .attr('sort',-1)
+         .on('mouseover',function(d,i){highlightMenuItem(columns[i])})
+         .on('mouseout',function(d,i){unhighlightMenuItem(columns[i])})
+         .on('click',function(d,i){
+          d3.select(this).attr('sort',d3.select(this).attr('sort')*-1)
+          trans([sort_keys[i],'position'],d3.select(this).attr('sort'))
+        })
+         .on('mouseover',function(d,i){
+          highlightMenuItem(columns[i])
+          d3.select(this).style("cursor", "pointer"); 
+          })
+         .on('mouseout',function(d,i){
+          unhighlightMenuItem(columns[i])
+          d3.select(this).style("cursor", "default");
+        })
+
+        
+      // ADDING COLUMN NAMES
+      var inactive_columns = ['Points Projection','Fixtures']
+      var columnHeader = columnPanel.append('g')
+         .selectAll('text')
+         .data([pos_margin-7,name_margin,stats_margin-15,stats_margin+8,stats_margin+39,stats_margin+65,stats_margin+91,stats_margin+113,stats_margin+138,projected_margin-10,dots_margin-10])
+         .enter()
+         .append('text')
+         .text((d,i)=>columns[i])
+         .attr('x', function(d){return d+20})
+         .attr('y',45)
+         .attr('fill','black')
+         .attr('font-family','Abel')
+         .attr('text-anchor','start')
+         .attr('font-weight','lighter')
+         .attr('font-size',15)
+         .attr('fill','black')
+         .attr('id',function(d,i){return columns[i]})
+         .attr('class',function(d,i){
+            if (inactive_columns.includes(columns[i]))
+              {return null}
+              else{ return 'sortable'}
+          })
+
+        // ADDING SORTING FUNCTIONALITY
+        d3.selectAll('.sortable')
+         .on('mouseover',function(d,i){
+          highlightMenuItem(columns[i])
+          d3.select(this).style("cursor", "pointer") 
+          })
+         .on('mouseout',function(d,i){
+          unhighlightMenuItem(columns[i])
+         
+        }).on('click',function(d,i){
+           d3.select('.'+columns[i]).on('click')
+          d3.select('.'+columns[i]).attr('sort',d3.select('.'+columns[i]).attr('sort')*-1)
+          trans([sort_keys[i],'position'],d3.select('.'+columns[i]).attr('sort'))
+        })
+
+      // VERTICAL BARS
+      columnPanel.append('g')
+         .selectAll('rect')
+         .data([stats_margin-3,projected_margin+7,dots_margin+1])
+         .enter()
+         .append('rect')
+         .attr('width',.5)
+         .attr('height',602)
+         .attr('x', function(d){return d})
+         .attr('y',53)
+         .attr('fill','black')
+
+       // BLACK BAR
+       columnPanel.append('rect')
+         .attr('height',2)
+         .attr('width',1300)
+         .attr('fill','black')
+         .attr('y',53)
+         .attr('x',crest_margin-5)
+
+
+      ////////////////////////////////////////////////////////////////////////////////////////
+
+      ///// APPENDING LEAGUES ////////////////////////////////////////////////////////////////
+      swapDataset('PL',svg)
+      function generate_table(leauge_table,match_data){
+
+
+
+      // FONTS AND COLORS 
+      var teamFont = 'Libre Franklin'
+      var numFont = 'Arial'
+      var winColor = '#009246'
+      var drawColor = 'grey'
+      var lossColor = '#ff0000'
+
+
+       // CREATING COLOR SCALES
+      var scales = {}
+      scales['points'] = createScale(league_table.map(k=>k['points']),lossColor,drawColor,winColor)
+      scales['won'] = createScale(league_table.map(k=>k['won']),lossColor,drawColor,winColor)
+      scales['lost'] = createScale(league_table.map(k=>k['lost']),winColor,drawColor,lossColor)
+      scales['draw'] = createScale(league_table.map(k=>k['draw']),'#f2f2f2',drawColor,drawColor)
+      scales['playedGames'] = createScale(league_table.map(k=>k['playedGames']),'#f2f2f2','#f2f2f2','#f2f2f2')
+
+      scales['goalsFor'] = createScale(league_table.map(k=>k['goalsFor']),lossColor,drawColor,winColor)
+      scales['goalsAgainst'] = createScale(league_table.map(k=>k['goalsAgainst']),winColor,drawColor,lossColor)
+
+      league_table.forEach(function(d,i){
+
+        var g = svg.append('g').attr('transform','translate('+String(main_hshift)+','+String(i*30+75+main_vshift)+')')
+        g.attr('class',(d.l_id+d.position).split(' ').pop().replace("'","_")).attr('id','table')
+
+        // Underline
+          g.append('rect')
+         .attr('height',.5)
+         .attr('width',1300)
+         .attr('fill','black')
+         .attr('y',10)
+         .attr('x',-15)
+    
+        // Team Position
+         g.append('text')
+         .text(d.position)
+         .attr('x',pos_margin)
+         .attr('y',0)
+         .attr('font-family',numFont)
+         .attr('font-size',14)
+         .attr('fill','grey')
+         .attr('text-anchor','end') 
+
+         var adjust_crest = ['Tottenham Hotspur FC','Huddersfield Town AFC','Liverpool FC','AC Milan','Juventus FC','FC Atalanta','Cagliari FC','Real Madrid CF','Girona FC','Borussia Monchengladbach']
+
+         // CREST 
+         g.append("svg:image")
+        .attr('x', crest_margin)
+        .attr('y', function(){
+          if (adjust_crest.includes(d.team)){return -17}
+          else{return(-12)}
+          })
+        .attr('width', function(){
+          if (d.team == 'Tottenham Hotspur FC' ){return 10}
+          else{return(15)}
+          })
+        .attr("href",d.crestUrl)
+
+ 
+        // Team Name
+        g.append('text')
+         .text(d.shortName.toUpperCase())
+         .attr('x',name_margin)
+         .attr('y',0)
+         .attr('font-family',teamFont)
+         .attr('font-weight','bold')
+         .attr('fill','black')
+         .attr('font-size',14)
+
+
+        var noColor= ['draw','playedGames']
+        // Points, Won, Lost, Draw
+        g.append('g')
+          .selectAll('text')
+           .data(post_columns)
+         .enter()
+         .append('text')
+         .text(function(d_){return d[d_]})
+         .attr('x',function(d_,i_){
+          return(stats_margin+i_*25)
+         })
+         .attr('y',0)
+         .attr('font-family',numFont)
+         .attr('font-size',13)
+        .attr('fill',function(d_)
+
+          {if(noColor.includes(d_)){return'grey'}
+            else{
+            return(scales[d_](d[d_]))}}
+          )
+
+         .attr('text-anchor','end')
+         .attr('opacity',1)
+
+         // STAT CIRCLES
+         g.append('g')
+          .selectAll('circle')
+         .data(post_columns)
+         .enter()
+         .append('circle')
+         .attr('r',9.5)
+         .attr('cx',function(d_,i_){
+          if (d[d_]>=10){
+          return(stats_margin+(i_)*25-6)}
+          else {return(stats_margin+i_*25-4)}
+         })
+         .attr('cy',-4.5)
+         .attr('fill',function(d_){return(scales[d_](d[d_]))})
+         .attr('opacity',.15)
+         
+    
+        // Game Circles
+        g.append('g')
+        .selectAll('circle')
+         .data( match_data.filter(k=>(k.homeTeam==d.team) | (k.awayTeam == d.team)))
+         .enter()
+         .append('circle')
+         .attr('r',6.5)
+         .attr('cx',function(k,j){
+          return dots_margin  + j*20})
+         .attr('cy',-4.5)
+         .attr('fill',function(k){
+          var winningSide =  k['winner'].slice(0,4).toLowerCase()
+          var winningTeam = k[winningSide+'Team']
+          if (k['winner']=='DRAW'){return drawColor}
+          else if(winningTeam==d.team) {return winColor}
+          else if (k.status!='FINISHED'){return 'gainsboro'}
+          else{return lossColor}
+         })
+         .attr('stroke-width',0)
+         .attr('stroke','gray')
+         .attr('opacity',.5)
+
+
+
+         var num_games = {'PL':38,'SA':37,'FL1':36,'BL1':34,'PD':34}
+
+
+          // Projected Points
+          g.append('rect')
+         .attr('height',1.1)
+         .attr('width',(num_games[d.l_id])*(d.points/d.playedGames))
+         .attr('fill','silver')
+         .attr('y',-5.7)
+         .attr('x',projected_margin)
+         
+         g.append('circle')
+         .attr('r',3)
+         .attr('fill','silver')
+         .attr('cy',-4.7)
+         .attr('cx',projected_margin+(num_games[d.l_id])*(d.points/d.playedGames))
+
+         
+
+            // Current Points
+          g.append('rect')
+         .attr('height',2)
+         .attr('width',d.points)
+         .attr('fill',scales['points'](d.points))
+         .attr('y',-5.7)
+         .attr('x',projected_margin)
+
+         g.append('circle')
+         .attr('r',4)
+         .attr('fill',scales['points'](d.points))
+         .attr('cy',-4.7)
+         .attr('cx',projected_margin+d.points*1.25)
+
+
+       
+
+          // Projected Points
+
+})
+}
+debugger;
+}
+
+
+
+         // Projected Points Slider
+         /*
+          g.append('rect')
+         .attr('height',.3)
+         .attr('width',110)
+         .attr('fill','gray')
+         .attr('y',-5)
+         .attr('x',220)
+         */
+
+        
+        
+       
+
+
+
+    </script>
+</body>
+</html>
