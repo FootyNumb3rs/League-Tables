@@ -192,7 +192,7 @@
       var name_margin = crest_margin + 20
       var stats_margin = name_margin + 167.5
       var projected_margin = stats_margin + 190
-      var dots_margin = projected_margin+140
+      var dots_margin = projected_margin+150
 
 
       var sort_keys = ['position','shortName','playedGames','points','won','lost','draw','goalsFor','goalsAgainst']  
@@ -443,12 +443,12 @@
          .attr('r',3)
          .attr('fill','silver')
          .attr('cy',-4.7)
-         .attr('cx',projected_margin+(38-d.playedGames)*(d.points/d.playedGames))
+         .attr('cx',projected_margin+(38)*(d.points/d.playedGames))
 
 
           g.append('rect')
          .attr('height',1.1)
-         .attr('width',(38-d.playedGames)*(d.points/d.playedGames))
+         .attr('width',(38)*(d.points/d.playedGames))
          .attr('fill','silver')
          .attr('y',-5.7)
          .attr('x',projected_margin)
