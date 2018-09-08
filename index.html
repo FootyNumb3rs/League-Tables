@@ -452,7 +452,7 @@
           else{return(15)}
           })
         .attr("href",function(){
-             if(swap_crest.keys().includes(d.team))
+             if(Object.keys(swap_crest).includes(d.team))
                 {return swap_crest[d.team]}
              else {return d.crestUrl}
                 })
