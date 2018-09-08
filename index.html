@@ -451,7 +451,11 @@
           if (d.team == 'Tottenham Hotspur FC' ){return 10}
           else{return(15)}
           })
-        .attr("href",d.crestUrl)
+        .attr("href",function(){
+             if(swap_crest.keys().includes(d.team)
+                {return swap_crest[d.team]}
+             else {return d.crestUrl}
+                })
 
  
         // Team Name
