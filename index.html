@@ -438,10 +438,17 @@
          .attr('fill','grey')
          .attr('text-anchor','end') 
 
-         var adjust_crest = ['Tottenham Hotspur FC','Huddersfield Town AFC','Liverpool FC','AC Milan','Juventus FC','FC Atalanta','Cagliari FC','Real Madrid CF','Girona FC','Borussia Monchengladbach']
+         var adjust_crest = ['Tottenham Hotspur FC','Huddersfield Town AFC','AFC Fiorentina','Atalanta BC','Cagliari Calcio',
+                             'Liverpool FC','AC Milan',
+                             'Juventus FC','FC Atalanta',
+                             'Cagliari FC','Real Madrid CF',
+                             'Girona FC','Borussia Monchengladbach']
          var swap_crest = {'Juventus FC':'https://upload.wikimedia.org/wikipedia/commons/1/15/Juventus_FC_2017_logo.svg',
                           'ACF Fiorentina':'https://upload.wikimedia.org/wikipedia/commons/7/79/ACF_Fiorentina.svg',
-                          'UC Sampdoria':'https://upload.wikimedia.org/wikipedia/ro/c/c4/UC_Sampdoria.svg'}
+                          'UC Sampdoria':'https://upload.wikimedia.org/wikipedia/ro/c/c4/UC_Sampdoria.svg',
+                          'SPAL 2013':'https://upload.wikimedia.org/wikipedia/en/3/3c/Spal2013_logo.svg',
+                           'FC Internazionale Milano':'https://upload.wikimedia.org/wikipedia/en/0/0b/Inter_Milan.svg',
+                          }
          // CREST 
          g.append("svg:image")
         .attr('x', crest_margin)
