@@ -442,15 +442,22 @@
                              'Liverpool FC','AC Milan',
                              'Juventus FC','FC Atalanta',
                              'Cagliari FC','Real Madrid CF',
-                             'Girona FC','Borussia Monchengladbach']
+                             'Girona FC','Borussia Monchengladbach','AS Monaco FC','Lille OSC']
          var swap_crest = {'Juventus FC':'https://upload.wikimedia.org/wikipedia/commons/1/15/Juventus_FC_2017_logo.svg',
                           'ACF Fiorentina':'https://upload.wikimedia.org/wikipedia/commons/7/79/ACF_Fiorentina.svg',
                           'UC Sampdoria':'https://upload.wikimedia.org/wikipedia/ro/c/c4/UC_Sampdoria.svg',
                           'SPAL 2013':'https://upload.wikimedia.org/wikipedia/en/3/3c/Spal2013_logo.svg',
                            'FC Internazionale Milano':'https://upload.wikimedia.org/wikipedia/en/0/0b/Inter_Milan.svg',
                            'Everton FC':'https://upload.wikimedia.org/wikipedia/sco/7/7c/Everton_FC_logo.svg',
-                           'AFC Bournemouth':'https://upload.wikimedia.org/wikipedia/en/e/e5/AFC_Bournemouth_%282013%29.svg'
+                           'AFC Bournemouth':'https://upload.wikimedia.org/wikipedia/en/e/e5/AFC_Bournemouth_%282013%29.svg',
+                           'Paris Saint-Germain FC':'https://upload.wikimedia.org/wikipedia/fr/8/86/Paris_Saint-Germain_Logo.svg',
+                           'FC Nantes':'https://vignette.wikia.nocookie.net/logopedia/images/2/2b/FC_Nantes_logo.svg/revision/latest?cb=20120712162541',
+                           'OGC Nice':'https://upload.wikimedia.org/wikipedia/en/2/2e/OGC_Nice_logo.svg',
+                           'Amiens SC':'https://upload.wikimedia.org/wikipedia/en/f/f6/Amiens_SC_Logo.svg',
+                           'SM Caen':'https://upload.wikimedia.org/wikipedia/en/a/aa/SM_Caen_2016_logo.svg'
+  
                           }
+         var shift_up = ['AS Monaco FC','Juventus FC','Tottenham Hotspur FC','Lille OSC']
          // CREST 
          g.append("svg:image")
         .attr('x', crest_margin)
@@ -459,7 +466,7 @@
           else{return(-12)}
           })
         .attr('width', function(){
-          if ((d.team == 'Tottenham Hotspur FC')||(d.team == 'Juventus FC')){return 10}
+          if (shift_up.includes(d.team)){return 10}
           else{return(15)}
           })
         .attr("href",function(){
