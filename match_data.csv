@@ -59,26 +59,26 @@ matchday,awayTeam,homeTeam,FTHomeScore,FTAwayScore,winner,status,date,league_id,
 6,Tottenham Hotspur FC,Brighton & Hove Albion FC,1.0,2.0,AWAY_TEAM,FINISHED,2018-09-22T16:30:00Z,PL,Tottenham Hotspur FC
 6,Chelsea FC,West Ham United FC,0.0,0.0,DRAW,FINISHED,2018-09-23T12:30:00Z,PL,
 6,Everton FC,Arsenal FC,2.0,0.0,HOME_TEAM,FINISHED,2018-09-23T15:00:00Z,PL,Arsenal FC
-7,Manchester United FC,West Ham United FC,,,,SCHEDULED,2018-09-29T11:30:00Z,PL,
-7,Southampton FC,Wolverhampton Wanderers FC,,,,SCHEDULED,2018-09-29T14:00:00Z,PL,
-7,Brighton & Hove Albion FC,Manchester City FC,,,,SCHEDULED,2018-09-29T14:00:00Z,PL,
-7,Leicester City FC,Newcastle United FC,,,,SCHEDULED,2018-09-29T14:00:00Z,PL,
-7,Watford FC,Arsenal FC,,,,SCHEDULED,2018-09-29T14:00:00Z,PL,
-7,Fulham FC,Everton FC,,,,SCHEDULED,2018-09-29T14:00:00Z,PL,
-7,Tottenham Hotspur FC,Huddersfield Town AFC,,,,SCHEDULED,2018-09-29T14:00:00Z,PL,
-7,Liverpool FC,Chelsea FC,,,,SCHEDULED,2018-09-29T16:30:00Z,PL,
-7,Burnley FC,Cardiff City FC,,,,SCHEDULED,2018-09-30T15:00:00Z,PL,
-7,Crystal Palace FC,AFC Bournemouth,,,,SCHEDULED,2018-10-01T19:00:00Z,PL,
-8,West Ham United FC,Brighton & Hove Albion FC,,,,SCHEDULED,2018-10-05T19:00:00Z,PL,
-8,Cardiff City FC,Tottenham Hotspur FC,,,,SCHEDULED,2018-10-06T14:00:00Z,PL,
-8,Everton FC,Leicester City FC,,,,SCHEDULED,2018-10-06T14:00:00Z,PL,
-8,Huddersfield Town AFC,Burnley FC,,,,SCHEDULED,2018-10-06T14:00:00Z,PL,
-8,Wolverhampton Wanderers FC,Crystal Palace FC,,,,SCHEDULED,2018-10-06T14:00:00Z,PL,
-8,AFC Bournemouth,Watford FC,,,,SCHEDULED,2018-10-06T14:00:00Z,PL,
-8,Newcastle United FC,Manchester United FC,,,,SCHEDULED,2018-10-06T16:30:00Z,PL,
-8,Arsenal FC,Fulham FC,,,,SCHEDULED,2018-10-07T11:00:00Z,PL,
-8,Chelsea FC,Southampton FC,,,,SCHEDULED,2018-10-07T13:15:00Z,PL,
-8,Manchester City FC,Liverpool FC,,,,SCHEDULED,2018-10-07T15:30:00Z,PL,
+7,Manchester United FC,West Ham United FC,3.0,1.0,HOME_TEAM,FINISHED,2018-09-29T11:30:00Z,PL,West Ham United FC
+7,Southampton FC,Wolverhampton Wanderers FC,2.0,0.0,HOME_TEAM,FINISHED,2018-09-29T14:00:00Z,PL,Wolverhampton Wanderers FC
+7,Brighton & Hove Albion FC,Manchester City FC,2.0,0.0,HOME_TEAM,FINISHED,2018-09-29T14:00:00Z,PL,Manchester City FC
+7,Leicester City FC,Newcastle United FC,0.0,2.0,AWAY_TEAM,FINISHED,2018-09-29T14:00:00Z,PL,Leicester City FC
+7,Watford FC,Arsenal FC,2.0,0.0,HOME_TEAM,FINISHED,2018-09-29T14:00:00Z,PL,Arsenal FC
+7,Fulham FC,Everton FC,3.0,0.0,HOME_TEAM,FINISHED,2018-09-29T14:00:00Z,PL,Everton FC
+7,Tottenham Hotspur FC,Huddersfield Town AFC,0.0,2.0,AWAY_TEAM,FINISHED,2018-09-29T14:00:00Z,PL,Tottenham Hotspur FC
+7,Liverpool FC,Chelsea FC,1.0,1.0,DRAW,FINISHED,2018-09-29T16:30:00Z,PL,
+7,Burnley FC,Cardiff City FC,1.0,2.0,AWAY_TEAM,FINISHED,2018-09-30T15:00:00Z,PL,Burnley FC
+7,Crystal Palace FC,AFC Bournemouth,2.0,1.0,HOME_TEAM,FINISHED,2018-10-01T19:00:00Z,PL,AFC Bournemouth
+8,West Ham United FC,Brighton & Hove Albion FC,1.0,0.0,HOME_TEAM,FINISHED,2018-10-05T19:00:00Z,PL,Brighton & Hove Albion FC
+8,Cardiff City FC,Tottenham Hotspur FC,1.0,0.0,HOME_TEAM,FINISHED,2018-10-06T14:00:00Z,PL,Tottenham Hotspur FC
+8,Everton FC,Leicester City FC,1.0,2.0,AWAY_TEAM,FINISHED,2018-10-06T14:00:00Z,PL,Everton FC
+8,Huddersfield Town AFC,Burnley FC,1.0,1.0,DRAW,FINISHED,2018-10-06T14:00:00Z,PL,
+8,Wolverhampton Wanderers FC,Crystal Palace FC,0.0,1.0,AWAY_TEAM,FINISHED,2018-10-06T14:00:00Z,PL,Wolverhampton Wanderers FC
+8,AFC Bournemouth,Watford FC,0.0,4.0,AWAY_TEAM,FINISHED,2018-10-06T14:00:00Z,PL,AFC Bournemouth
+8,Newcastle United FC,Manchester United FC,3.0,2.0,HOME_TEAM,FINISHED,2018-10-06T16:30:00Z,PL,Manchester United FC
+8,Arsenal FC,Fulham FC,1.0,5.0,AWAY_TEAM,FINISHED,2018-10-07T11:00:00Z,PL,Arsenal FC
+8,Chelsea FC,Southampton FC,0.0,3.0,AWAY_TEAM,FINISHED,2018-10-07T13:15:00Z,PL,Chelsea FC
+8,Manchester City FC,Liverpool FC,0.0,0.0,DRAW,FINISHED,2018-10-07T15:30:00Z,PL,
 9,Manchester United FC,Chelsea FC,,,,SCHEDULED,2018-10-20T11:30:00Z,PL,
 9,Watford FC,Wolverhampton Wanderers FC,,,,SCHEDULED,2018-10-20T14:00:00Z,PL,
 9,Burnley FC,Manchester City FC,,,,SCHEDULED,2018-10-20T14:00:00Z,PL,
@@ -100,13 +100,13 @@ matchday,awayTeam,homeTeam,FTHomeScore,FTAwayScore,winner,status,date,league_id,
 10,Everton FC,Manchester United FC,,,,SCHEDULED,2018-10-28T16:00:00Z,PL,
 10,Manchester City FC,Tottenham Hotspur FC,,,,SCHEDULED,2018-10-29T20:00:00Z,PL,
 11,Manchester United FC,AFC Bournemouth,,,,SCHEDULED,2018-11-03T12:30:00Z,PL,
-11,Southampton FC,Manchester City FC,,,,SCHEDULED,2018-11-03T15:00:00Z,PL,
 11,Watford FC,Newcastle United FC,,,,SCHEDULED,2018-11-03T15:00:00Z,PL,
 11,Brighton & Hove Albion FC,Everton FC,,,,SCHEDULED,2018-11-03T15:00:00Z,PL,
 11,Leicester City FC,Cardiff City FC,,,,SCHEDULED,2018-11-03T15:00:00Z,PL,
 11,Burnley FC,West Ham United FC,,,,SCHEDULED,2018-11-03T15:00:00Z,PL,
 11,Liverpool FC,Arsenal FC,,,,SCHEDULED,2018-11-03T17:30:00Z,PL,
 11,Tottenham Hotspur FC,Wolverhampton Wanderers FC,,,,SCHEDULED,2018-11-03T19:45:00Z,PL,
+11,Southampton FC,Manchester City FC,,,,SCHEDULED,2018-11-04T15:00:00Z,PL,
 11,Crystal Palace FC,Chelsea FC,,,,SCHEDULED,2018-11-04T16:00:00Z,PL,
 11,Fulham FC,Huddersfield Town AFC,,,,SCHEDULED,2018-11-05T20:00:00Z,PL,
 12,Brighton & Hove Albion FC,Cardiff City FC,,,,SCHEDULED,2018-11-10T12:30:00Z,PL,
@@ -424,24 +424,24 @@ matchday,awayTeam,homeTeam,FTHomeScore,FTAwayScore,winner,status,date,league_id,
 5,Eintracht Frankfurt,Borussia Mönchengladbach,3.0,1.0,HOME_TEAM,FINISHED,2018-09-26T18:30:00Z,BL1,Borussia Mönchengladbach
 5,VfL Wolfsburg,1. FSV Mainz 05,0.0,0.0,DRAW,FINISHED,2018-09-26T18:30:00Z,BL1,
 5,VfB Stuttgart,RB Leipzig,2.0,0.0,HOME_TEAM,FINISHED,2018-09-26T18:30:00Z,BL1,RB Leipzig
-6,FC Bayern München,Hertha BSC,,,,SCHEDULED,2018-09-28T18:30:00Z,BL1,
-6,SV Werder Bremen,VfB Stuttgart,,,,SCHEDULED,2018-09-29T13:30:00Z,BL1,
-6,1. FSV Mainz 05,FC Schalke 04,,,,SCHEDULED,2018-09-29T13:30:00Z,BL1,
-6,TSV Fortuna 95 Düsseldorf,1. FC Nürnberg,,,,SCHEDULED,2018-09-29T13:30:00Z,BL1,
-6,Borussia Mönchengladbach,VfL Wolfsburg,,,,SCHEDULED,2018-09-29T13:30:00Z,BL1,
-6,RB Leipzig,TSG 1899 Hoffenheim,,,,SCHEDULED,2018-09-29T13:30:00Z,BL1,
-6,BV Borussia 09 Dortmund,Bayer 04 Leverkusen,,,,SCHEDULED,2018-09-29T16:30:00Z,BL1,
-6,Hannover 96,Eintracht Frankfurt,,,,SCHEDULED,2018-09-30T13:30:00Z,BL1,
-6,SC Freiburg,FC Augsburg,,,,SCHEDULED,2018-09-30T16:00:00Z,BL1,
-7,VfL Wolfsburg,SV Werder Bremen,,,,SCHEDULED,2018-10-05T18:30:00Z,BL1,
-7,FC Augsburg,BV Borussia 09 Dortmund,,,,SCHEDULED,2018-10-06T13:30:00Z,BL1,
-7,VfB Stuttgart,Hannover 96,,,,SCHEDULED,2018-10-06T13:30:00Z,BL1,
-7,FC Schalke 04,TSV Fortuna 95 Düsseldorf,,,,SCHEDULED,2018-10-06T13:30:00Z,BL1,
-7,Hertha BSC,1. FSV Mainz 05,,,,SCHEDULED,2018-10-06T13:30:00Z,BL1,
-7,Borussia Mönchengladbach,FC Bayern München,,,,SCHEDULED,2018-10-06T16:30:00Z,BL1,
-7,Bayer 04 Leverkusen,SC Freiburg,,,,SCHEDULED,2018-10-07T11:30:00Z,BL1,
-7,Eintracht Frankfurt,TSG 1899 Hoffenheim,,,,SCHEDULED,2018-10-07T13:30:00Z,BL1,
-7,1. FC Nürnberg,RB Leipzig,,,,SCHEDULED,2018-10-07T16:00:00Z,BL1,
+6,FC Bayern München,Hertha BSC,2.0,0.0,HOME_TEAM,FINISHED,2018-09-28T18:30:00Z,BL1,Hertha BSC
+6,SV Werder Bremen,VfB Stuttgart,2.0,1.0,HOME_TEAM,FINISHED,2018-09-29T13:30:00Z,BL1,VfB Stuttgart
+6,1. FSV Mainz 05,FC Schalke 04,1.0,0.0,HOME_TEAM,FINISHED,2018-09-29T13:30:00Z,BL1,FC Schalke 04
+6,TSV Fortuna 95 Düsseldorf,1. FC Nürnberg,3.0,0.0,HOME_TEAM,FINISHED,2018-09-29T13:30:00Z,BL1,1. FC Nürnberg
+6,Borussia Mönchengladbach,VfL Wolfsburg,2.0,2.0,DRAW,FINISHED,2018-09-29T13:30:00Z,BL1,
+6,RB Leipzig,TSG 1899 Hoffenheim,1.0,2.0,AWAY_TEAM,FINISHED,2018-09-29T13:30:00Z,BL1,RB Leipzig
+6,BV Borussia 09 Dortmund,Bayer 04 Leverkusen,2.0,4.0,AWAY_TEAM,FINISHED,2018-09-29T16:30:00Z,BL1,BV Borussia 09 Dortmund
+6,Hannover 96,Eintracht Frankfurt,4.0,1.0,HOME_TEAM,FINISHED,2018-09-30T13:30:00Z,BL1,Eintracht Frankfurt
+6,SC Freiburg,FC Augsburg,4.0,1.0,HOME_TEAM,FINISHED,2018-09-30T16:00:00Z,BL1,FC Augsburg
+7,VfL Wolfsburg,SV Werder Bremen,2.0,0.0,HOME_TEAM,FINISHED,2018-10-05T18:30:00Z,BL1,SV Werder Bremen
+7,FC Augsburg,BV Borussia 09 Dortmund,4.0,3.0,HOME_TEAM,FINISHED,2018-10-06T13:30:00Z,BL1,BV Borussia 09 Dortmund
+7,VfB Stuttgart,Hannover 96,3.0,1.0,HOME_TEAM,FINISHED,2018-10-06T13:30:00Z,BL1,Hannover 96
+7,FC Schalke 04,TSV Fortuna 95 Düsseldorf,0.0,2.0,AWAY_TEAM,FINISHED,2018-10-06T13:30:00Z,BL1,FC Schalke 04
+7,Hertha BSC,1. FSV Mainz 05,0.0,0.0,DRAW,FINISHED,2018-10-06T13:30:00Z,BL1,
+7,Borussia Mönchengladbach,FC Bayern München,0.0,3.0,AWAY_TEAM,FINISHED,2018-10-06T16:30:00Z,BL1,Borussia Mönchengladbach
+7,Bayer 04 Leverkusen,SC Freiburg,0.0,0.0,DRAW,FINISHED,2018-10-07T11:30:00Z,BL1,
+7,Eintracht Frankfurt,TSG 1899 Hoffenheim,1.0,2.0,AWAY_TEAM,FINISHED,2018-10-07T13:30:00Z,BL1,Eintracht Frankfurt
+7,1. FC Nürnberg,RB Leipzig,6.0,0.0,HOME_TEAM,FINISHED,2018-10-07T16:00:00Z,BL1,RB Leipzig
 8,TSV Fortuna 95 Düsseldorf,Eintracht Frankfurt,,,,SCHEDULED,2018-10-19T18:30:00Z,BL1,
 8,BV Borussia 09 Dortmund,VfB Stuttgart,,,,SCHEDULED,2018-10-20T13:30:00Z,BL1,
 8,TSG 1899 Hoffenheim,1. FC Nürnberg,,,,SCHEDULED,2018-10-20T13:30:00Z,BL1,
@@ -755,56 +755,56 @@ matchday,awayTeam,homeTeam,FTHomeScore,FTAwayScore,winner,status,date,league_id,
 7,En Avant Guingamp,Nîmes Olympique,0.0,0.0,DRAW,FINISHED,2018-09-26T17:00:00Z,FL1,
 7,Stade Rennais FC 1901,Amiens SC,2.0,1.0,HOME_TEAM,FINISHED,2018-09-26T17:00:00Z,FL1,Amiens SC
 7,Stade de Reims,Paris Saint-Germain FC,4.0,1.0,HOME_TEAM,FINISHED,2018-09-26T19:00:00Z,FL1,Paris Saint-Germain FC
-8,AS Monaco FC,AS Saint-Étienne,,,,SCHEDULED,2018-09-28T18:45:00Z,FL1,
-8,Paris Saint-Germain FC,OGC de Nice Côte d'Azur,,,,SCHEDULED,2018-09-29T15:15:00Z,FL1,
-8,FC Nantes,Olympique Lyonnais,,,,SCHEDULED,2018-09-29T18:00:00Z,FL1,
-8,FC Girondins de Bordeaux,Stade de Reims,,,,SCHEDULED,2018-09-29T18:00:00Z,FL1,
-8,En Avant Guingamp,Angers SCO,,,,SCHEDULED,2018-09-29T18:00:00Z,FL1,
-8,Amiens SC,SM Caen,,,,SCHEDULED,2018-09-29T18:00:00Z,FL1,
-8,Dijon Football Côte d'Or,RC Strasbourg Alsace,,,,SCHEDULED,2018-09-29T18:00:00Z,FL1,
-8,Toulouse FC,Stade Rennais FC 1901,,,,SCHEDULED,2018-09-30T13:00:00Z,FL1,
-8,Nîmes Olympique,Montpellier HSC,,,,SCHEDULED,2018-09-30T15:00:00Z,FL1,
-8,Olympique de Marseille,Lille OSC,,,,SCHEDULED,2018-09-30T19:00:00Z,FL1,
-9,OGC de Nice Côte d'Azur,Toulouse FC,,,,SCHEDULED,2018-10-05T18:45:00Z,FL1,
-9,AS Saint-Étienne,Lille OSC,,,,SCHEDULED,2018-10-06T15:00:00Z,FL1,
-9,RC Strasbourg Alsace,Angers SCO,,,,SCHEDULED,2018-10-06T18:00:00Z,FL1,
-9,Montpellier HSC,En Avant Guingamp,,,,SCHEDULED,2018-10-06T18:00:00Z,FL1,
-9,Stade de Reims,Nîmes Olympique,,,,SCHEDULED,2018-10-06T18:00:00Z,FL1,
-9,Dijon Football Côte d'Or,Amiens SC,,,,SCHEDULED,2018-10-06T18:00:00Z,FL1,
-9,FC Nantes,FC Girondins de Bordeaux,,,,SCHEDULED,2018-10-07T13:00:00Z,FL1,
-9,SM Caen,Olympique de Marseille,,,,SCHEDULED,2018-10-07T15:00:00Z,FL1,
-9,Stade Rennais FC 1901,AS Monaco FC,,,,SCHEDULED,2018-10-07T15:00:00Z,FL1,
-9,Olympique Lyonnais,Paris Saint-Germain FC,,,,SCHEDULED,2018-10-07T19:00:00Z,FL1,
-10,FC Girondins de Bordeaux,Montpellier HSC,,,,SCHEDULED,2018-10-19T00:00:00Z,FL1,
-10,Amiens SC,Paris Saint-Germain FC,,,,SCHEDULED,2018-10-19T00:00:00Z,FL1,
-10,Nîmes Olympique,Olympique Lyonnais,,,,SCHEDULED,2018-10-19T00:00:00Z,FL1,
-10,Stade Rennais FC 1901,AS Saint-Étienne,,,,SCHEDULED,2018-10-19T00:00:00Z,FL1,
-10,Olympique de Marseille,OGC de Nice Côte d'Azur,,,,SCHEDULED,2018-10-19T00:00:00Z,FL1,
-10,Angers SCO,Stade de Reims,,,,SCHEDULED,2018-10-19T00:00:00Z,FL1,
-10,Toulouse FC,FC Nantes,,,,SCHEDULED,2018-10-19T00:00:00Z,FL1,
-10,En Avant Guingamp,SM Caen,,,,SCHEDULED,2018-10-19T00:00:00Z,FL1,
-10,Lille OSC,Dijon Football Côte d'Or,,,,SCHEDULED,2018-10-19T00:00:00Z,FL1,
-10,AS Monaco FC,RC Strasbourg Alsace,,,,SCHEDULED,2018-10-19T00:00:00Z,FL1,
-11,SM Caen,Lille OSC,,,,SCHEDULED,2018-10-26T00:00:00Z,FL1,
-11,OGC de Nice Côte d'Azur,FC Girondins de Bordeaux,,,,SCHEDULED,2018-10-26T00:00:00Z,FL1,
-11,Stade de Reims,Stade Rennais FC 1901,,,,SCHEDULED,2018-10-26T00:00:00Z,FL1,
-11,Montpellier HSC,Toulouse FC,,,,SCHEDULED,2018-10-26T00:00:00Z,FL1,
-11,Olympique Lyonnais,Angers SCO,,,,SCHEDULED,2018-10-26T00:00:00Z,FL1,
-11,Dijon Football Côte d'Or,AS Monaco FC,,,,SCHEDULED,2018-10-26T00:00:00Z,FL1,
-11,RC Strasbourg Alsace,En Avant Guingamp,,,,SCHEDULED,2018-10-26T00:00:00Z,FL1,
-11,AS Saint-Étienne,Nîmes Olympique,,,,SCHEDULED,2018-10-26T00:00:00Z,FL1,
-11,FC Nantes,Amiens SC,,,,SCHEDULED,2018-10-26T00:00:00Z,FL1,
-11,Paris Saint-Germain FC,Olympique de Marseille,,,,SCHEDULED,2018-10-27T00:00:00Z,FL1,
-12,Amiens SC,OGC de Nice Côte d'Azur,,,,SCHEDULED,2018-11-02T00:00:00Z,FL1,
-12,AS Monaco FC,Stade de Reims,,,,SCHEDULED,2018-11-02T00:00:00Z,FL1,
-12,En Avant Guingamp,FC Nantes,,,,SCHEDULED,2018-11-02T00:00:00Z,FL1,
-12,Stade Rennais FC 1901,SM Caen,,,,SCHEDULED,2018-11-02T00:00:00Z,FL1,
-12,Nîmes Olympique,Dijon Football Côte d'Or,,,,SCHEDULED,2018-11-02T00:00:00Z,FL1,
-12,Toulouse FC,RC Strasbourg Alsace,,,,SCHEDULED,2018-11-02T00:00:00Z,FL1,
-12,Olympique de Marseille,Montpellier HSC,,,,SCHEDULED,2018-11-02T00:00:00Z,FL1,
-12,Lille OSC,Paris Saint-Germain FC,,,,SCHEDULED,2018-11-02T00:00:00Z,FL1,
-12,FC Girondins de Bordeaux,Olympique Lyonnais,,,,SCHEDULED,2018-11-02T00:00:00Z,FL1,
-12,Angers SCO,AS Saint-Étienne,,,,SCHEDULED,2018-11-02T00:00:00Z,FL1,
+8,AS Monaco FC,AS Saint-Étienne,2.0,0.0,HOME_TEAM,FINISHED,2018-09-28T18:45:00Z,FL1,AS Saint-Étienne
+8,Paris Saint-Germain FC,OGC de Nice Côte d'Azur,0.0,3.0,AWAY_TEAM,FINISHED,2018-09-29T15:15:00Z,FL1,Paris Saint-Germain FC
+8,FC Nantes,Olympique Lyonnais,1.0,1.0,DRAW,FINISHED,2018-09-29T18:00:00Z,FL1,
+8,FC Girondins de Bordeaux,Stade de Reims,0.0,0.0,DRAW,FINISHED,2018-09-29T18:00:00Z,FL1,
+8,En Avant Guingamp,Angers SCO,0.0,1.0,AWAY_TEAM,FINISHED,2018-09-29T18:00:00Z,FL1,En Avant Guingamp
+8,Amiens SC,SM Caen,1.0,0.0,HOME_TEAM,FINISHED,2018-09-29T18:00:00Z,FL1,SM Caen
+8,Dijon Football Côte d'Or,RC Strasbourg Alsace,3.0,0.0,HOME_TEAM,FINISHED,2018-09-29T18:00:00Z,FL1,RC Strasbourg Alsace
+8,Toulouse FC,Stade Rennais FC 1901,1.0,1.0,DRAW,FINISHED,2018-09-30T13:00:00Z,FL1,
+8,Nîmes Olympique,Montpellier HSC,3.0,0.0,HOME_TEAM,FINISHED,2018-09-30T15:00:00Z,FL1,Montpellier HSC
+8,Olympique de Marseille,Lille OSC,3.0,0.0,HOME_TEAM,FINISHED,2018-09-30T19:00:00Z,FL1,Lille OSC
+9,OGC de Nice Côte d'Azur,Toulouse FC,1.0,1.0,DRAW,FINISHED,2018-10-05T18:45:00Z,FL1,
+9,AS Saint-Étienne,Lille OSC,3.0,1.0,HOME_TEAM,FINISHED,2018-10-06T15:00:00Z,FL1,Lille OSC
+9,RC Strasbourg Alsace,Angers SCO,2.0,2.0,DRAW,FINISHED,2018-10-06T18:00:00Z,FL1,
+9,Montpellier HSC,En Avant Guingamp,1.0,1.0,DRAW,FINISHED,2018-10-06T18:00:00Z,FL1,
+9,Stade de Reims,Nîmes Olympique,0.0,0.0,DRAW,FINISHED,2018-10-06T18:00:00Z,FL1,
+9,Dijon Football Côte d'Or,Amiens SC,1.0,0.0,HOME_TEAM,FINISHED,2018-10-06T18:00:00Z,FL1,Amiens SC
+9,FC Nantes,FC Girondins de Bordeaux,3.0,0.0,HOME_TEAM,FINISHED,2018-10-07T13:00:00Z,FL1,FC Girondins de Bordeaux
+9,SM Caen,Olympique de Marseille,2.0,0.0,HOME_TEAM,FINISHED,2018-10-07T15:00:00Z,FL1,Olympique de Marseille
+9,Stade Rennais FC 1901,AS Monaco FC,1.0,2.0,AWAY_TEAM,FINISHED,2018-10-07T15:00:00Z,FL1,Stade Rennais FC 1901
+9,Olympique Lyonnais,Paris Saint-Germain FC,5.0,0.0,HOME_TEAM,FINISHED,2018-10-07T19:00:00Z,FL1,Paris Saint-Germain FC
+10,Nîmes Olympique,Olympique Lyonnais,,,,SCHEDULED,2018-10-19T18:45:00Z,FL1,
+10,Amiens SC,Paris Saint-Germain FC,,,,SCHEDULED,2018-10-20T15:00:00Z,FL1,
+10,Angers SCO,Stade de Reims,,,,SCHEDULED,2018-10-20T18:00:00Z,FL1,
+10,Toulouse FC,FC Nantes,,,,SCHEDULED,2018-10-20T18:00:00Z,FL1,
+10,En Avant Guingamp,SM Caen,,,,SCHEDULED,2018-10-20T18:00:00Z,FL1,
+10,Lille OSC,Dijon Football Côte d'Or,,,,SCHEDULED,2018-10-20T18:00:00Z,FL1,
+10,AS Monaco FC,RC Strasbourg Alsace,,,,SCHEDULED,2018-10-20T18:00:00Z,FL1,
+10,FC Girondins de Bordeaux,Montpellier HSC,,,,SCHEDULED,2018-10-21T13:00:00Z,FL1,
+10,Stade Rennais FC 1901,AS Saint-Étienne,,,,SCHEDULED,2018-10-21T15:00:00Z,FL1,
+10,Olympique de Marseille,OGC de Nice Côte d'Azur,,,,SCHEDULED,2018-10-21T19:00:00Z,FL1,
+11,AS Saint-Étienne,Nîmes Olympique,,,,SCHEDULED,2018-10-26T18:45:00Z,FL1,
+11,Olympique Lyonnais,Angers SCO,,,,SCHEDULED,2018-10-27T15:00:00Z,FL1,
+11,SM Caen,Lille OSC,,,,SCHEDULED,2018-10-27T18:00:00Z,FL1,
+11,Montpellier HSC,Toulouse FC,,,,SCHEDULED,2018-10-27T18:00:00Z,FL1,
+11,Dijon Football Côte d'Or,AS Monaco FC,,,,SCHEDULED,2018-10-27T18:00:00Z,FL1,
+11,RC Strasbourg Alsace,En Avant Guingamp,,,,SCHEDULED,2018-10-27T18:00:00Z,FL1,
+11,FC Nantes,Amiens SC,,,,SCHEDULED,2018-10-27T18:00:00Z,FL1,
+11,Stade de Reims,Stade Rennais FC 1901,,,,SCHEDULED,2018-10-28T14:00:00Z,FL1,
+11,OGC de Nice Côte d'Azur,FC Girondins de Bordeaux,,,,SCHEDULED,2018-10-28T16:00:00Z,FL1,
+11,Paris Saint-Germain FC,Olympique de Marseille,,,,SCHEDULED,2018-10-28T20:00:00Z,FL1,
+12,Lille OSC,Paris Saint-Germain FC,,,,SCHEDULED,2018-11-02T19:45:00Z,FL1,
+12,FC Girondins de Bordeaux,Olympique Lyonnais,,,,SCHEDULED,2018-11-03T16:00:00Z,FL1,
+12,Amiens SC,OGC de Nice Côte d'Azur,,,,SCHEDULED,2018-11-03T19:00:00Z,FL1,
+12,AS Monaco FC,Stade de Reims,,,,SCHEDULED,2018-11-03T19:00:00Z,FL1,
+12,Stade Rennais FC 1901,SM Caen,,,,SCHEDULED,2018-11-03T19:00:00Z,FL1,
+12,Nîmes Olympique,Dijon Football Côte d'Or,,,,SCHEDULED,2018-11-03T19:00:00Z,FL1,
+12,Toulouse FC,RC Strasbourg Alsace,,,,SCHEDULED,2018-11-03T19:00:00Z,FL1,
+12,En Avant Guingamp,FC Nantes,,,,SCHEDULED,2018-11-04T14:00:00Z,FL1,
+12,Angers SCO,AS Saint-Étienne,,,,SCHEDULED,2018-11-04T16:00:00Z,FL1,
+12,Olympique de Marseille,Montpellier HSC,,,,SCHEDULED,2018-11-04T20:00:00Z,FL1,
 13,RC Strasbourg Alsace,Lille OSC,,,,SCHEDULED,2018-11-09T00:00:00Z,FL1,
 13,SM Caen,FC Girondins de Bordeaux,,,,SCHEDULED,2018-11-09T00:00:00Z,FL1,
 13,FC Nantes,Stade Rennais FC 1901,,,,SCHEDULED,2018-11-09T00:00:00Z,FL1,
@@ -1123,27 +1123,27 @@ matchday,awayTeam,homeTeam,FTHomeScore,FTAwayScore,winner,status,date,league_id,
 6,UC Sampdoria,Cagliari Calcio,0.0,0.0,DRAW,FINISHED,2018-09-26T19:00:00Z,SA,
 6,AC Chievo Verona,Genoa CFC,2.0,0.0,HOME_TEAM,FINISHED,2018-09-26T19:00:00Z,SA,Genoa CFC
 6,US Sassuolo Calcio,SPAL 2013,0.0,2.0,AWAY_TEAM,FINISHED,2018-09-27T17:00:00Z,SA,US Sassuolo Calcio
-6,AC Milan,Empoli FC,0.0,1.0,AWAY_TEAM,IN_PLAY,2018-09-27T19:00:00Z,SA,AC Milan
-7,SS Lazio,AS Roma,,,,SCHEDULED,2018-09-29T13:00:00Z,SA,
-7,SSC Napoli,Juventus FC,,,,SCHEDULED,2018-09-29T16:00:00Z,SA,
-7,Cagliari Calcio,FC Internazionale Milano,,,,SCHEDULED,2018-09-29T18:30:00Z,SA,
-7,Udinese Calcio,Bologna FC 1909,,,,SCHEDULED,2018-09-30T10:30:00Z,SA,
-7,Atalanta BC,ACF Fiorentina,,,,SCHEDULED,2018-09-30T13:00:00Z,SA,
-7,Torino FC,AC Chievo Verona,,,,SCHEDULED,2018-09-30T13:00:00Z,SA,
-7,Genoa CFC,Frosinone Calcio,,,,SCHEDULED,2018-09-30T13:00:00Z,SA,
-7,Empoli FC,Parma Calcio 1913,,,,SCHEDULED,2018-09-30T16:00:00Z,SA,
-7,AC Milan,US Sassuolo Calcio,,,,SCHEDULED,2018-09-30T18:30:00Z,SA,
-7,SPAL 2013,UC Sampdoria,,,,SCHEDULED,2018-10-01T18:30:00Z,SA,
-8,Frosinone Calcio,Torino FC,,,,SCHEDULED,2018-10-05T18:30:00Z,SA,
-8,Bologna FC 1909,Cagliari Calcio,,,,SCHEDULED,2018-10-06T13:00:00Z,SA,
-8,Juventus FC,Udinese Calcio,,,,SCHEDULED,2018-10-06T16:00:00Z,SA,
-8,AS Roma,Empoli FC,,,,SCHEDULED,2018-10-06T18:30:00Z,SA,
-8,Parma Calcio 1913,Genoa CFC,,,,SCHEDULED,2018-10-07T10:30:00Z,SA,
-8,ACF Fiorentina,SS Lazio,,,,SCHEDULED,2018-10-07T13:00:00Z,SA,
-8,AC Chievo Verona,AC Milan,,,,SCHEDULED,2018-10-07T13:00:00Z,SA,
-8,UC Sampdoria,Atalanta BC,,,,SCHEDULED,2018-10-07T13:00:00Z,SA,
-8,US Sassuolo Calcio,SSC Napoli,,,,SCHEDULED,2018-10-07T16:00:00Z,SA,
-8,FC Internazionale Milano,SPAL 2013,,,,SCHEDULED,2018-10-07T18:30:00Z,SA,
+6,AC Milan,Empoli FC,1.0,1.0,DRAW,FINISHED,2018-09-27T19:00:00Z,SA,
+7,SS Lazio,AS Roma,3.0,1.0,HOME_TEAM,FINISHED,2018-09-29T13:00:00Z,SA,AS Roma
+7,SSC Napoli,Juventus FC,3.0,1.0,HOME_TEAM,FINISHED,2018-09-29T16:00:00Z,SA,Juventus FC
+7,Cagliari Calcio,FC Internazionale Milano,2.0,0.0,HOME_TEAM,FINISHED,2018-09-29T18:30:00Z,SA,FC Internazionale Milano
+7,Udinese Calcio,Bologna FC 1909,2.0,1.0,HOME_TEAM,FINISHED,2018-09-30T10:30:00Z,SA,Bologna FC 1909
+7,Atalanta BC,ACF Fiorentina,2.0,0.0,HOME_TEAM,FINISHED,2018-09-30T13:00:00Z,SA,ACF Fiorentina
+7,Torino FC,AC Chievo Verona,0.0,1.0,AWAY_TEAM,FINISHED,2018-09-30T13:00:00Z,SA,Torino FC
+7,Genoa CFC,Frosinone Calcio,1.0,2.0,AWAY_TEAM,FINISHED,2018-09-30T13:00:00Z,SA,Genoa CFC
+7,Empoli FC,Parma Calcio 1913,1.0,0.0,HOME_TEAM,FINISHED,2018-09-30T16:00:00Z,SA,Parma Calcio 1913
+7,AC Milan,US Sassuolo Calcio,1.0,4.0,AWAY_TEAM,FINISHED,2018-09-30T18:30:00Z,SA,AC Milan
+7,SPAL 2013,UC Sampdoria,2.0,1.0,HOME_TEAM,FINISHED,2018-10-01T18:30:00Z,SA,UC Sampdoria
+8,Frosinone Calcio,Torino FC,3.0,2.0,HOME_TEAM,FINISHED,2018-10-05T18:30:00Z,SA,Torino FC
+8,Bologna FC 1909,Cagliari Calcio,2.0,0.0,HOME_TEAM,FINISHED,2018-10-06T13:00:00Z,SA,Cagliari Calcio
+8,Juventus FC,Udinese Calcio,0.0,2.0,AWAY_TEAM,FINISHED,2018-10-06T16:00:00Z,SA,Juventus FC
+8,AS Roma,Empoli FC,0.0,2.0,AWAY_TEAM,FINISHED,2018-10-06T18:30:00Z,SA,AS Roma
+8,Parma Calcio 1913,Genoa CFC,1.0,3.0,AWAY_TEAM,FINISHED,2018-10-07T10:30:00Z,SA,Parma Calcio 1913
+8,ACF Fiorentina,SS Lazio,1.0,0.0,HOME_TEAM,FINISHED,2018-10-07T13:00:00Z,SA,SS Lazio
+8,AC Chievo Verona,AC Milan,3.0,1.0,HOME_TEAM,FINISHED,2018-10-07T13:00:00Z,SA,AC Milan
+8,UC Sampdoria,Atalanta BC,0.0,1.0,AWAY_TEAM,FINISHED,2018-10-07T13:00:00Z,SA,UC Sampdoria
+8,US Sassuolo Calcio,SSC Napoli,2.0,0.0,HOME_TEAM,FINISHED,2018-10-07T16:00:00Z,SA,SSC Napoli
+8,FC Internazionale Milano,SPAL 2013,1.0,2.0,AWAY_TEAM,FINISHED,2018-10-07T18:30:00Z,SA,FC Internazionale Milano
 9,SPAL 2013,AS Roma,,,,SCHEDULED,2018-10-20T13:00:00Z,SA,
 9,Genoa CFC,Juventus FC,,,,SCHEDULED,2018-10-20T16:00:00Z,SA,
 9,SSC Napoli,Udinese Calcio,,,,SCHEDULED,2018-10-20T18:30:00Z,SA,
@@ -1165,56 +1165,56 @@ matchday,awayTeam,homeTeam,FTHomeScore,FTAwayScore,winner,status,date,league_id,
 10,AS Roma,SSC Napoli,,,,SCHEDULED,2018-10-28T19:30:00Z,SA,
 10,FC Internazionale Milano,SS Lazio,,,,SCHEDULED,2018-10-29T19:30:00Z,SA,
 1,Genoa CFC,AC Milan,,,,SCHEDULED,2018-10-31T19:30:00Z,SA,
-11,Cagliari Calcio,Juventus FC,,,,SCHEDULED,2018-11-03T00:00:00Z,SA,
-11,Empoli FC,SSC Napoli,,,,SCHEDULED,2018-11-03T00:00:00Z,SA,
-11,Genoa CFC,FC Internazionale Milano,,,,SCHEDULED,2018-11-03T00:00:00Z,SA,
-11,AS Roma,ACF Fiorentina,,,,SCHEDULED,2018-11-03T00:00:00Z,SA,
-11,SPAL 2013,SS Lazio,,,,SCHEDULED,2018-11-03T00:00:00Z,SA,
-11,Frosinone Calcio,Parma Calcio 1913,,,,SCHEDULED,2018-11-03T00:00:00Z,SA,
-11,AC Milan,Udinese Calcio,,,,SCHEDULED,2018-11-03T00:00:00Z,SA,
-11,Torino FC,UC Sampdoria,,,,SCHEDULED,2018-11-03T00:00:00Z,SA,
-11,US Sassuolo Calcio,AC Chievo Verona,,,,SCHEDULED,2018-11-03T00:00:00Z,SA,
-11,Atalanta BC,Bologna FC 1909,,,,SCHEDULED,2018-11-03T00:00:00Z,SA,
-12,UC Sampdoria,AS Roma,,,,SCHEDULED,2018-11-10T00:00:00Z,SA,
-12,Juventus FC,AC Milan,,,,SCHEDULED,2018-11-10T00:00:00Z,SA,
-12,FC Internazionale Milano,Atalanta BC,,,,SCHEDULED,2018-11-10T00:00:00Z,SA,
-12,Parma Calcio 1913,Torino FC,,,,SCHEDULED,2018-11-10T00:00:00Z,SA,
-12,Bologna FC 1909,AC Chievo Verona,,,,SCHEDULED,2018-11-10T00:00:00Z,SA,
-12,SSC Napoli,Genoa CFC,,,,SCHEDULED,2018-11-10T00:00:00Z,SA,
-12,Udinese Calcio,Empoli FC,,,,SCHEDULED,2018-11-10T00:00:00Z,SA,
-12,SS Lazio,US Sassuolo Calcio,,,,SCHEDULED,2018-11-10T00:00:00Z,SA,
-12,Cagliari Calcio,SPAL 2013,,,,SCHEDULED,2018-11-10T00:00:00Z,SA,
-12,ACF Fiorentina,Frosinone Calcio,,,,SCHEDULED,2018-11-10T00:00:00Z,SA,
-13,SPAL 2013,Juventus FC,,,,SCHEDULED,2018-11-24T00:00:00Z,SA,
-13,AC Chievo Verona,SSC Napoli,,,,SCHEDULED,2018-11-24T00:00:00Z,SA,
-13,Frosinone Calcio,FC Internazionale Milano,,,,SCHEDULED,2018-11-24T00:00:00Z,SA,
-13,AC Milan,SS Lazio,,,,SCHEDULED,2018-11-24T00:00:00Z,SA,
-13,US Sassuolo Calcio,Parma Calcio 1913,,,,SCHEDULED,2018-11-24T00:00:00Z,SA,
-13,AS Roma,Udinese Calcio,,,,SCHEDULED,2018-11-24T00:00:00Z,SA,
-13,Torino FC,Cagliari Calcio,,,,SCHEDULED,2018-11-24T00:00:00Z,SA,
-13,ACF Fiorentina,Bologna FC 1909,,,,SCHEDULED,2018-11-24T00:00:00Z,SA,
-13,UC Sampdoria,Genoa CFC,,,,SCHEDULED,2018-11-24T00:00:00Z,SA,
-13,Atalanta BC,Empoli FC,,,,SCHEDULED,2018-11-24T00:00:00Z,SA,
-14,Juventus FC,ACF Fiorentina,,,,SCHEDULED,2018-12-01T00:00:00Z,SA,
-14,FC Internazionale Milano,AS Roma,,,,SCHEDULED,2018-12-01T00:00:00Z,SA,
-14,Parma Calcio 1913,AC Milan,,,,SCHEDULED,2018-12-01T00:00:00Z,SA,
-14,SSC Napoli,Atalanta BC,,,,SCHEDULED,2018-12-01T00:00:00Z,SA,
-14,Bologna FC 1909,UC Sampdoria,,,,SCHEDULED,2018-12-01T00:00:00Z,SA,
-14,Genoa CFC,Torino FC,,,,SCHEDULED,2018-12-01T00:00:00Z,SA,
-14,SS Lazio,AC Chievo Verona,,,,SCHEDULED,2018-12-01T00:00:00Z,SA,
-14,Udinese Calcio,US Sassuolo Calcio,,,,SCHEDULED,2018-12-01T00:00:00Z,SA,
-14,Empoli FC,SPAL 2013,,,,SCHEDULED,2018-12-01T00:00:00Z,SA,
-14,Cagliari Calcio,Frosinone Calcio,,,,SCHEDULED,2018-12-01T00:00:00Z,SA,
-15,FC Internazionale Milano,Juventus FC,,,,SCHEDULED,2018-12-08T00:00:00Z,SA,
-15,Frosinone Calcio,SSC Napoli,,,,SCHEDULED,2018-12-08T00:00:00Z,SA,
-15,UC Sampdoria,SS Lazio,,,,SCHEDULED,2018-12-08T00:00:00Z,SA,
-15,Torino FC,AC Milan,,,,SCHEDULED,2018-12-08T00:00:00Z,SA,
-15,AC Chievo Verona,Parma Calcio 1913,,,,SCHEDULED,2018-12-08T00:00:00Z,SA,
-15,Atalanta BC,Udinese Calcio,,,,SCHEDULED,2018-12-08T00:00:00Z,SA,
-15,AS Roma,Cagliari Calcio,,,,SCHEDULED,2018-12-08T00:00:00Z,SA,
-15,SPAL 2013,Genoa CFC,,,,SCHEDULED,2018-12-08T00:00:00Z,SA,
-15,Bologna FC 1909,Empoli FC,,,,SCHEDULED,2018-12-08T00:00:00Z,SA,
-15,ACF Fiorentina,US Sassuolo Calcio,,,,SCHEDULED,2018-12-08T00:00:00Z,SA,
+11,Empoli FC,SSC Napoli,,,,SCHEDULED,2018-11-02T19:30:00Z,SA,
+11,Genoa CFC,FC Internazionale Milano,,,,SCHEDULED,2018-11-03T14:00:00Z,SA,
+11,AS Roma,ACF Fiorentina,,,,SCHEDULED,2018-11-03T17:00:00Z,SA,
+11,Cagliari Calcio,Juventus FC,,,,SCHEDULED,2018-11-03T19:30:00Z,SA,
+11,SPAL 2013,SS Lazio,,,,SCHEDULED,2018-11-04T11:30:00Z,SA,
+11,Frosinone Calcio,Parma Calcio 1913,,,,SCHEDULED,2018-11-04T14:00:00Z,SA,
+11,Torino FC,UC Sampdoria,,,,SCHEDULED,2018-11-04T14:00:00Z,SA,
+11,US Sassuolo Calcio,AC Chievo Verona,,,,SCHEDULED,2018-11-04T14:00:00Z,SA,
+11,Atalanta BC,Bologna FC 1909,,,,SCHEDULED,2018-11-04T17:00:00Z,SA,
+11,AC Milan,Udinese Calcio,,,,SCHEDULED,2018-11-04T19:30:00Z,SA,
+12,ACF Fiorentina,Frosinone Calcio,,,,SCHEDULED,2018-11-09T19:30:00Z,SA,
+12,Parma Calcio 1913,Torino FC,,,,SCHEDULED,2018-11-10T14:00:00Z,SA,
+12,Cagliari Calcio,SPAL 2013,,,,SCHEDULED,2018-11-10T17:00:00Z,SA,
+12,SSC Napoli,Genoa CFC,,,,SCHEDULED,2018-11-10T19:30:00Z,SA,
+12,FC Internazionale Milano,Atalanta BC,,,,SCHEDULED,2018-11-11T11:30:00Z,SA,
+12,UC Sampdoria,AS Roma,,,,SCHEDULED,2018-11-11T14:00:00Z,SA,
+12,Bologna FC 1909,AC Chievo Verona,,,,SCHEDULED,2018-11-11T14:00:00Z,SA,
+12,Udinese Calcio,Empoli FC,,,,SCHEDULED,2018-11-11T14:00:00Z,SA,
+12,SS Lazio,US Sassuolo Calcio,,,,SCHEDULED,2018-11-11T17:00:00Z,SA,
+12,Juventus FC,AC Milan,,,,SCHEDULED,2018-11-11T19:30:00Z,SA,
+13,AS Roma,Udinese Calcio,,,,SCHEDULED,2018-11-24T14:00:00Z,SA,
+13,SPAL 2013,Juventus FC,,,,SCHEDULED,2018-11-24T17:00:00Z,SA,
+13,Frosinone Calcio,FC Internazionale Milano,,,,SCHEDULED,2018-11-24T19:30:00Z,SA,
+13,US Sassuolo Calcio,Parma Calcio 1913,,,,SCHEDULED,2018-11-25T11:30:00Z,SA,
+13,AC Chievo Verona,SSC Napoli,,,,SCHEDULED,2018-11-25T14:00:00Z,SA,
+13,ACF Fiorentina,Bologna FC 1909,,,,SCHEDULED,2018-11-25T14:00:00Z,SA,
+13,Atalanta BC,Empoli FC,,,,SCHEDULED,2018-11-25T14:00:00Z,SA,
+13,AC Milan,SS Lazio,,,,SCHEDULED,2018-11-25T17:00:00Z,SA,
+13,UC Sampdoria,Genoa CFC,,,,SCHEDULED,2018-11-25T19:30:00Z,SA,
+13,Torino FC,Cagliari Calcio,,,,SCHEDULED,2018-11-26T19:30:00Z,SA,
+14,Empoli FC,SPAL 2013,,,,SCHEDULED,2018-12-01T14:00:00Z,SA,
+14,Cagliari Calcio,Frosinone Calcio,,,,SCHEDULED,2018-12-01T17:00:00Z,SA,
+14,Bologna FC 1909,UC Sampdoria,,,,SCHEDULED,2018-12-01T19:30:00Z,SA,
+14,Parma Calcio 1913,AC Milan,,,,SCHEDULED,2018-12-02T11:30:00Z,SA,
+14,Juventus FC,ACF Fiorentina,,,,SCHEDULED,2018-12-02T14:00:00Z,SA,
+14,Genoa CFC,Torino FC,,,,SCHEDULED,2018-12-02T14:00:00Z,SA,
+14,Udinese Calcio,US Sassuolo Calcio,,,,SCHEDULED,2018-12-02T14:00:00Z,SA,
+14,SS Lazio,AC Chievo Verona,,,,SCHEDULED,2018-12-02T17:00:00Z,SA,
+14,FC Internazionale Milano,AS Roma,,,,SCHEDULED,2018-12-02T19:30:00Z,SA,
+14,SSC Napoli,Atalanta BC,,,,SCHEDULED,2018-12-03T19:30:00Z,SA,
+15,FC Internazionale Milano,Juventus FC,,,,SCHEDULED,2018-12-07T19:30:00Z,SA,
+15,Frosinone Calcio,SSC Napoli,,,,SCHEDULED,2018-12-08T14:00:00Z,SA,
+15,AS Roma,Cagliari Calcio,,,,SCHEDULED,2018-12-08T17:00:00Z,SA,
+15,UC Sampdoria,SS Lazio,,,,SCHEDULED,2018-12-08T19:30:00Z,SA,
+15,ACF Fiorentina,US Sassuolo Calcio,,,,SCHEDULED,2018-12-09T11:30:00Z,SA,
+15,AC Chievo Verona,Parma Calcio 1913,,,,SCHEDULED,2018-12-09T14:00:00Z,SA,
+15,Atalanta BC,Udinese Calcio,,,,SCHEDULED,2018-12-09T14:00:00Z,SA,
+15,Bologna FC 1909,Empoli FC,,,,SCHEDULED,2018-12-09T14:00:00Z,SA,
+15,SPAL 2013,Genoa CFC,,,,SCHEDULED,2018-12-09T17:00:00Z,SA,
+15,Torino FC,AC Milan,,,,SCHEDULED,2018-12-09T19:30:00Z,SA,
 16,Udinese Calcio,FC Internazionale Milano,,,,SCHEDULED,2018-12-15T00:00:00Z,SA,
 16,Empoli FC,ACF Fiorentina,,,,SCHEDULED,2018-12-15T00:00:00Z,SA,
 16,Genoa CFC,AS Roma,,,,SCHEDULED,2018-12-15T00:00:00Z,SA,
@@ -1502,30 +1502,31 @@ matchday,awayTeam,homeTeam,FTHomeScore,FTAwayScore,winner,status,date,league_id,
 6,FC Barcelona,CD Leganés,2.0,1.0,HOME_TEAM,FINISHED,2018-09-26T18:00:00Z,PD,CD Leganés
 6,RC Celta de Vigo,Valencia CF,1.0,1.0,DRAW,FINISHED,2018-09-26T20:00:00Z,PD,
 6,Real Madrid CF,Sevilla FC,3.0,0.0,HOME_TEAM,FINISHED,2018-09-26T20:00:00Z,PD,Sevilla FC
-6,Levante UD,Real Valladolid CF,2.0,1.0,HOME_TEAM,IN_PLAY,2018-09-27T18:00:00Z,PD,Real Valladolid CF
-6,Getafe CF,Deportivo Alavés,0.0,0.0,DRAW,IN_PLAY,2018-09-27T18:00:00Z,PD,
-6,Real Betis Balompié,Girona FC,,,,SCHEDULED,2018-09-27T20:00:00Z,PD,
-7,RCD Espanyol de Barcelona,Rayo Vallecano de Madrid,,,,SCHEDULED,2018-09-28T19:00:00Z,PD,
-7,Valencia CF,Real Sociedad de Fútbol,,,,SCHEDULED,2018-09-29T11:00:00Z,PD,
-7,Athletic Club,FC Barcelona,,,,SCHEDULED,2018-09-29T14:15:00Z,PD,
-7,Sevilla FC,SD Eibar,,,,SCHEDULED,2018-09-29T16:30:00Z,PD,
-7,Club Atlético de Madrid,Real Madrid CF,,,,SCHEDULED,2018-09-29T18:45:00Z,PD,
-7,Girona FC,SD Huesca,,,,SCHEDULED,2018-09-30T10:00:00Z,PD,
-7,Real Valladolid CF,Villarreal CF,,,,SCHEDULED,2018-09-30T14:15:00Z,PD,
-7,Deportivo Alavés,Levante UD,,,,SCHEDULED,2018-09-30T16:30:00Z,PD,
-7,CD Leganés,Real Betis Balompié,,,,SCHEDULED,2018-09-30T18:45:00Z,PD,
-7,Getafe CF,RC Celta de Vigo,,,,SCHEDULED,2018-10-01T19:00:00Z,PD,
-8,Real Sociedad de Fútbol,Athletic Club,,,,SCHEDULED,2018-10-05T19:00:00Z,PD,
-8,SD Eibar,Girona FC,,,,SCHEDULED,2018-10-06T11:00:00Z,PD,
-8,Levante UD,Getafe CF,,,,SCHEDULED,2018-10-06T14:15:00Z,PD,
-8,Real Madrid CF,Deportivo Alavés,,,,SCHEDULED,2018-10-06T16:30:00Z,PD,
-8,Rayo Vallecano de Madrid,CD Leganés,,,,SCHEDULED,2018-10-06T18:45:00Z,PD,
-8,SD Huesca,Real Valladolid CF,,,,SCHEDULED,2018-10-07T10:00:00Z,PD,
-8,Real Betis Balompié,Club Atlético de Madrid,,,,SCHEDULED,2018-10-07T14:15:00Z,PD,
-8,RC Celta de Vigo,Sevilla FC,,,,SCHEDULED,2018-10-07T16:30:00Z,PD,
-8,Villarreal CF,RCD Espanyol de Barcelona,,,,SCHEDULED,2018-10-07T16:30:00Z,PD,
-8,FC Barcelona,Valencia CF,,,,SCHEDULED,2018-10-07T18:45:00Z,PD,
+6,Levante UD,Real Valladolid CF,2.0,1.0,HOME_TEAM,FINISHED,2018-09-27T18:00:00Z,PD,Real Valladolid CF
+6,Getafe CF,Deportivo Alavés,1.0,1.0,DRAW,FINISHED,2018-09-27T18:00:00Z,PD,
+6,Real Betis Balompié,Girona FC,0.0,1.0,AWAY_TEAM,FINISHED,2018-09-27T20:00:00Z,PD,Real Betis Balompié
+7,RCD Espanyol de Barcelona,Rayo Vallecano de Madrid,2.0,2.0,DRAW,FINISHED,2018-09-28T19:00:00Z,PD,
+7,Valencia CF,Real Sociedad de Fútbol,0.0,1.0,AWAY_TEAM,FINISHED,2018-09-29T11:00:00Z,PD,Valencia CF
+7,Athletic Club,FC Barcelona,1.0,1.0,DRAW,FINISHED,2018-09-29T14:15:00Z,PD,
+7,Sevilla FC,SD Eibar,1.0,3.0,AWAY_TEAM,FINISHED,2018-09-29T16:30:00Z,PD,Sevilla FC
+7,Club Atlético de Madrid,Real Madrid CF,0.0,0.0,DRAW,FINISHED,2018-09-29T18:45:00Z,PD,
+7,Girona FC,SD Huesca,1.0,1.0,DRAW,FINISHED,2018-09-30T10:00:00Z,PD,
+7,Real Valladolid CF,Villarreal CF,0.0,1.0,AWAY_TEAM,FINISHED,2018-09-30T14:15:00Z,PD,Real Valladolid CF
+7,Deportivo Alavés,Levante UD,2.0,1.0,HOME_TEAM,FINISHED,2018-09-30T16:30:00Z,PD,Levante UD
+7,CD Leganés,Real Betis Balompié,1.0,0.0,HOME_TEAM,FINISHED,2018-09-30T18:45:00Z,PD,Real Betis Balompié
+7,Getafe CF,RC Celta de Vigo,1.0,1.0,DRAW,FINISHED,2018-10-01T19:00:00Z,PD,
+8,Real Sociedad de Fútbol,Athletic Club,1.0,3.0,AWAY_TEAM,FINISHED,2018-10-05T19:00:00Z,PD,Real Sociedad de Fútbol
+8,SD Eibar,Girona FC,2.0,3.0,AWAY_TEAM,FINISHED,2018-10-06T11:00:00Z,PD,SD Eibar
+8,Levante UD,Getafe CF,0.0,1.0,AWAY_TEAM,FINISHED,2018-10-06T14:15:00Z,PD,Levante UD
+8,Real Madrid CF,Deportivo Alavés,1.0,0.0,HOME_TEAM,FINISHED,2018-10-06T16:30:00Z,PD,Deportivo Alavés
+8,Rayo Vallecano de Madrid,CD Leganés,1.0,0.0,HOME_TEAM,FINISHED,2018-10-06T18:45:00Z,PD,CD Leganés
+8,SD Huesca,Real Valladolid CF,1.0,0.0,HOME_TEAM,FINISHED,2018-10-07T10:00:00Z,PD,Real Valladolid CF
+8,Real Betis Balompié,Club Atlético de Madrid,1.0,0.0,HOME_TEAM,FINISHED,2018-10-07T14:15:00Z,PD,Club Atlético de Madrid
+8,RC Celta de Vigo,Sevilla FC,2.0,1.0,HOME_TEAM,FINISHED,2018-10-07T16:30:00Z,PD,Sevilla FC
+8,Villarreal CF,RCD Espanyol de Barcelona,3.0,1.0,HOME_TEAM,FINISHED,2018-10-07T16:30:00Z,PD,RCD Espanyol de Barcelona
+8,FC Barcelona,Valencia CF,1.0,1.0,DRAW,FINISHED,2018-10-07T18:45:00Z,PD,
 9,Deportivo Alavés,RC Celta de Vigo,,,,SCHEDULED,2018-10-19T19:00:00Z,PD,
+9,Levante UD,Real Madrid CF,,,,SCHEDULED,2018-10-20T11:00:00Z,PD,
 9,CD Leganés,Valencia CF,,,,SCHEDULED,2018-10-20T14:15:00Z,PD,
 9,Club Atlético de Madrid,Villarreal CF,,,,SCHEDULED,2018-10-20T16:30:00Z,PD,
 9,Sevilla FC,FC Barcelona,,,,SCHEDULED,2018-10-20T18:45:00Z,PD,
@@ -1544,16 +1545,16 @@ matchday,awayTeam,homeTeam,FTHomeScore,FTAwayScore,winner,status,date,league_id,
 10,Real Madrid CF,FC Barcelona,,,,SCHEDULED,2018-10-28T15:15:00Z,PD,
 10,Villarreal CF,Deportivo Alavés,,,,SCHEDULED,2018-10-28T17:30:00Z,PD,
 10,SD Huesca,Sevilla FC,,,,SCHEDULED,2018-10-28T19:45:00Z,PD,
-11,Real Valladolid CF,Real Madrid CF,,,,SCHEDULED,2018-11-03T00:00:00Z,PD,
-11,Girona FC,Valencia CF,,,,SCHEDULED,2018-11-03T00:00:00Z,PD,
-11,Sevilla FC,Real Sociedad de Fútbol,,,,SCHEDULED,2018-11-03T00:00:00Z,PD,
-11,RC Celta de Vigo,Real Betis Balompié,,,,SCHEDULED,2018-11-03T00:00:00Z,PD,
-11,Athletic Club,RCD Espanyol de Barcelona,,,,SCHEDULED,2018-11-03T00:00:00Z,PD,
-11,FC Barcelona,Rayo Vallecano de Madrid,,,,SCHEDULED,2018-11-03T00:00:00Z,PD,
-11,Levante UD,Villarreal CF,,,,SCHEDULED,2018-11-03T00:00:00Z,PD,
-11,Getafe CF,SD Huesca,,,,SCHEDULED,2018-11-03T00:00:00Z,PD,
-11,Club Atlético de Madrid,CD Leganés,,,,SCHEDULED,2018-11-03T00:00:00Z,PD,
-11,Deportivo Alavés,SD Eibar,,,,SCHEDULED,2018-11-03T00:00:00Z,PD,
+11,Club Atlético de Madrid,CD Leganés,,,,SCHEDULED,2018-11-03T12:00:00Z,PD,
+11,Real Valladolid CF,Real Madrid CF,,,,SCHEDULED,2018-11-03T15:15:00Z,PD,
+11,Girona FC,Valencia CF,,,,SCHEDULED,2018-11-03T17:30:00Z,PD,
+11,FC Barcelona,Rayo Vallecano de Madrid,,,,SCHEDULED,2018-11-03T19:45:00Z,PD,
+11,Deportivo Alavés,SD Eibar,,,,SCHEDULED,2018-11-04T11:00:00Z,PD,
+11,Levante UD,Villarreal CF,,,,SCHEDULED,2018-11-04T15:15:00Z,PD,
+11,Sevilla FC,Real Sociedad de Fútbol,,,,SCHEDULED,2018-11-04T17:30:00Z,PD,
+11,Getafe CF,SD Huesca,,,,SCHEDULED,2018-11-04T17:30:00Z,PD,
+11,RC Celta de Vigo,Real Betis Balompié,,,,SCHEDULED,2018-11-04T19:45:00Z,PD,
+11,Athletic Club,RCD Espanyol de Barcelona,,,,SCHEDULED,2018-11-05T20:00:00Z,PD,
 12,Real Betis Balompié,FC Barcelona,,,,SCHEDULED,2018-11-10T00:00:00Z,PD,
 12,Athletic Club,Club Atlético de Madrid,,,,SCHEDULED,2018-11-10T00:00:00Z,PD,
 12,Real Sociedad de Fútbol,Levante UD,,,,SCHEDULED,2018-11-10T00:00:00Z,PD,
@@ -1574,7 +1575,6 @@ matchday,awayTeam,homeTeam,FTHomeScore,FTAwayScore,winner,status,date,league_id,
 13,Levante UD,SD Huesca,,,,SCHEDULED,2018-11-24T00:00:00Z,PD,
 13,Deportivo Alavés,CD Leganés,,,,SCHEDULED,2018-11-24T00:00:00Z,PD,
 13,Real Madrid CF,SD Eibar,,,,SCHEDULED,2018-11-24T00:00:00Z,PD,
-9,Levante UD,Real Madrid CF,,,,SCHEDULED,2018-11-30T12:00:00Z,PD,
 14,Valencia CF,Real Madrid CF,,,,SCHEDULED,2018-12-01T00:00:00Z,PD,
 14,Villarreal CF,FC Barcelona,,,,SCHEDULED,2018-12-01T00:00:00Z,PD,
 14,Athletic Club,Levante UD,,,,SCHEDULED,2018-12-01T00:00:00Z,PD,
