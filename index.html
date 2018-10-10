@@ -370,7 +370,7 @@
          .enter()
          .append('text')
          .text((d,i)=>columns[i])
-         .attr('x', function(d){
+         .attr('x', function(d,i){
                if (post_columns[i]== points){return d+13}
                else{return d+19}
          })
