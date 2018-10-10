@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 <style>
@@ -145,8 +144,24 @@
          .attr('font-family','Arial')
          .attr('font-weight','bold')
 
+
    // draw a rectangle
-    var plug = svg.append("a").attr('transform','translate('+ String(600)  +','+ String(5)+')')
+    var plug = svg.append("a").attr('transform','translate('+ String(600)  +','+ String(-25)+')')
+
+
+
+    plug
+    .append("text")
+    .attr("x", 750)
+    .attr("y", 145)
+    .style("fill", "black")
+    .style("font-size", 28)
+    .style("pointer-events", "none")
+    .attr('text-anchor','end')
+    .attr('font-family','Barlow Semi Condensed')
+    .attr('font-weight','400')
+    .text('Best Viewed On Desktop (Chrome)')
+
       
     plug
     .attr("xlink:href", "http://www.twitter.com/footynumb3rs")
@@ -724,3 +739,4 @@ debugger;
     </script>
 </body>
 </html>
+
