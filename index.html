@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <style>
@@ -200,6 +203,30 @@
            .attr('y',main_vshift+10)
            .attr('font-family','Libre Franklin')
            .attr('font-weight','bold')
+
+
+        var tooltip = d3.select("body")
+        .append("div")
+        .style("position", "absolute")
+        .style("z-index", "10")
+        .style("visibility", "hidden")
+        .text("..Doesn't modify Proj. Points/Fixtures..")
+        .style('font-family','Lekton')
+        .style('color','white')
+        .style('background','black');
+   
+      svg
+        .append("circle")
+        .attr("stroke", "black")
+        .attr('stroke-width',2.5)
+        .attr("fill", "black")
+        .attr("r", 5)
+        .attr("cx", 225)
+        .attr("cy", 86)
+        .on("mouseover", function(){return tooltip.style("visibility", "visible");})
+        .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
+        .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
+
 
 
 
