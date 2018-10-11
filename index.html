@@ -309,14 +309,13 @@
       var dots_margin = projected_margin+150
 
 
-      var sort_keys = ['position','shortName','playedGames','points','won','lost','draw','goalsFor','goalsAgainst','goalDifference']  
+   var sort_keys = ['position','shortName','playedGames','points','won','draw','lost','goalsFor','goalsAgainst','goalDifference']  
       var post_columns = sort_keys.slice(2)
       var key_map = {}
-      var columns = ['Pos','Team','GP','Pts','W','L','D','GF','GA','GD','Projected Points','Fixtures']
+      var columns = ['Pos','Team','GP','Pts','W','D','L','GF','GA','GD','Projected Points','Fixtures']
       var widths  = [pos_margin+35,stats_margin-name_margin-30,24,25,22,22,22,27,27,27]
 
      
-
       // COLUMN PANELS
       var columnPanel = svg.append('g').attr('transform','translate('+String(main_hshift-20)+','+String(main_vshift)+')')
 
