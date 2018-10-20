@@ -702,8 +702,8 @@
          g.append('circle')
          .attr('r',3)
          .attr('fill','silver')
-         .attr('cy',-4.7)
-         .attr('cx',projected_margin+(num_games[d.l_id])*(d.points/d.playedGames)*.8)
+         .attr('cy',-4.8)
+         .attr('cx',projected_margin+(num_games[d.l_id])*(d.points/d.playedGames)*)
 
          
             // Current Points
@@ -718,7 +718,7 @@
          .attr('r',4)
          .attr('fill',scales['points'](d.points))
          .attr('cy',-4.7)
-         .attr('cx',projected_margin+d.points*1.25)
+         .attr('cx',projected_margin+d.points*1.1)
 
 })
 }
