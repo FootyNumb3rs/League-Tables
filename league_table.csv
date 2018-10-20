@@ -1,0 +1,295 @@
+position,team,playedGames,won,draw,lost,points,goalsFor,goalsAgainst,goalDifference,table_type,l_id,crestUrl,shortName
+1,Manchester City FC,9,7,2,0,23,26,3,23,TOTAL,PL,https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg,Man City
+2,Liverpool FC,9,7,2,0,23,16,3,13,TOTAL,PL,http://upload.wikimedia.org/wikipedia/de/0/0a/FC_Liverpool.svg,Liverpool
+3,Chelsea FC,9,6,3,0,21,20,7,13,TOTAL,PL,http://upload.wikimedia.org/wikipedia/de/5/5c/Chelsea_crest.svg,Chelsea
+4,Tottenham Hotspur FC,9,7,0,2,21,16,7,9,TOTAL,PL,http://upload.wikimedia.org/wikipedia/de/b/b4/Tottenham_Hotspur.svg,Tottenham
+5,Arsenal FC,8,6,0,2,18,19,10,9,TOTAL,PL,http://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg,Arsenal
+6,AFC Bournemouth,9,5,2,2,17,16,12,4,TOTAL,PL,https://upload.wikimedia.org/wikipedia/de/4/41/Afc_bournemouth.svg,Bournemouth
+7,Watford FC,9,5,1,3,16,13,12,1,TOTAL,PL,https://upload.wikimedia.org/wikipedia/en/e/e2/Watford.svg,Watford
+8,Wolverhampton Wanderers FC,9,4,3,2,15,9,8,1,TOTAL,PL,https://upload.wikimedia.org/wikipedia/en/f/fc/Wolverhampton_Wanderers.svg,Wolverhampton
+9,Manchester United FC,9,4,2,3,14,15,16,-1,TOTAL,PL,http://upload.wikimedia.org/wikipedia/de/d/da/Manchester_United_FC.svg,Man United
+10,Leicester City FC,8,4,0,4,12,14,12,2,TOTAL,PL,http://upload.wikimedia.org/wikipedia/en/6/63/Leicester02.png,Leicester City
+11,Everton FC,8,3,3,2,12,13,12,1,TOTAL,PL,http://upload.wikimedia.org/wikipedia/de/f/f9/Everton_FC.svg,Everton
+12,Brighton & Hove Albion FC,9,3,2,4,11,10,13,-3,TOTAL,PL,https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_%26_Hove_Albion_logo.svg,Brighton Hove
+13,Burnley FC,9,2,2,5,8,10,17,-7,TOTAL,PL,https://upload.wikimedia.org/wikipedia/en/0/02/Burnley_FC_badge.png,Burnley
+14,Crystal Palace FC,8,2,1,5,7,5,9,-4,TOTAL,PL,http://upload.wikimedia.org/wikipedia/de/b/bf/Crystal_Palace_F.C._logo_%282013%29.png,Crystal Palace
+15,West Ham United FC,9,2,1,6,7,8,14,-6,TOTAL,PL,http://upload.wikimedia.org/wikipedia/de/e/e0/West_Ham_United_FC.svg,West Ham
+16,Southampton FC,9,1,3,5,6,6,14,-8,TOTAL,PL,http://upload.wikimedia.org/wikipedia/de/c/c9/FC_Southampton.svg,Southampton
+17,Cardiff City FC,9,1,2,6,5,8,19,-11,TOTAL,PL,https://upload.wikimedia.org/wikipedia/en/3/3c/Cardiff_City_crest.svg,Cardiff
+18,Fulham FC,9,1,2,6,5,11,25,-14,TOTAL,PL,http://upload.wikimedia.org/wikipedia/de/a/a8/Fulham_fc.svg,Fulham
+19,Huddersfield Town AFC,9,0,3,6,3,4,18,-14,TOTAL,PL,https://upload.wikimedia.org/wikipedia/en/5/5a/Huddersfield_Town_A.F.C._logo.svg,Huddersfield
+20,Newcastle United FC,9,0,2,7,2,6,14,-8,TOTAL,PL,http://upload.wikimedia.org/wikipedia/de/5/56/Newcastle_United_Logo.svg,Newcastle
+1,Manchester City FC,5,5,0,0,15,18,2,16,HOME,PL,https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg,Man City
+2,Chelsea FC,5,3,2,0,11,12,6,6,HOME,PL,http://upload.wikimedia.org/wikipedia/de/5/5c/Chelsea_crest.svg,Chelsea
+3,AFC Bournemouth,5,3,2,0,11,10,5,5,HOME,PL,https://upload.wikimedia.org/wikipedia/de/4/41/Afc_bournemouth.svg,Bournemouth
+4,Liverpool FC,4,3,1,0,10,8,0,8,HOME,PL,http://upload.wikimedia.org/wikipedia/de/0/0a/FC_Liverpool.svg,Liverpool
+5,Arsenal FC,4,3,0,1,9,7,3,4,HOME,PL,http://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg,Arsenal
+6,Watford FC,5,3,0,2,9,7,8,-1,HOME,PL,https://upload.wikimedia.org/wikipedia/en/e/e2/Watford.svg,Watford
+7,Wolverhampton Wanderers FC,5,2,2,1,8,6,5,1,HOME,PL,https://upload.wikimedia.org/wikipedia/en/f/fc/Wolverhampton_Wanderers.svg,Wolverhampton
+8,Everton FC,4,2,1,1,7,7,5,2,HOME,PL,http://upload.wikimedia.org/wikipedia/de/f/f9/Everton_FC.svg,Everton
+9,Brighton & Hove Albion FC,4,2,1,1,7,7,6,1,HOME,PL,https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_%26_Hove_Albion_logo.svg,Brighton Hove
+10,Manchester United FC,4,2,1,1,7,6,7,-1,HOME,PL,http://upload.wikimedia.org/wikipedia/de/d/da/Manchester_United_FC.svg,Man United
+11,Leicester City FC,4,2,0,2,6,7,5,2,HOME,PL,http://upload.wikimedia.org/wikipedia/en/6/63/Leicester02.png,Leicester City
+12,Tottenham Hotspur FC,3,2,0,1,6,5,3,2,HOME,PL,http://upload.wikimedia.org/wikipedia/de/b/b4/Tottenham_Hotspur.svg,Tottenham
+13,Burnley FC,4,1,1,2,4,6,6,0,HOME,PL,https://upload.wikimedia.org/wikipedia/en/0/02/Burnley_FC_badge.png,Burnley
+14,West Ham United FC,5,1,1,3,4,4,5,-1,HOME,PL,http://upload.wikimedia.org/wikipedia/de/e/e0/West_Ham_United_FC.svg,West Ham
+15,Fulham FC,4,1,1,2,4,6,10,-4,HOME,PL,http://upload.wikimedia.org/wikipedia/de/a/a8/Fulham_fc.svg,Fulham
+16,Cardiff City FC,5,1,1,3,4,7,12,-5,HOME,PL,https://upload.wikimedia.org/wikipedia/en/3/3c/Cardiff_City_crest.svg,Cardiff
+17,Southampton FC,4,0,2,2,2,3,7,-4,HOME,PL,http://upload.wikimedia.org/wikipedia/de/c/c9/FC_Southampton.svg,Southampton
+18,Crystal Palace FC,4,0,1,3,1,0,5,-5,HOME,PL,http://upload.wikimedia.org/wikipedia/de/b/bf/Crystal_Palace_F.C._logo_%282013%29.png,Crystal Palace
+19,Huddersfield Town AFC,5,0,1,4,1,0,7,-7,HOME,PL,https://upload.wikimedia.org/wikipedia/en/5/5a/Huddersfield_Town_A.F.C._logo.svg,Huddersfield
+20,Newcastle United FC,5,0,0,5,0,3,9,-6,HOME,PL,http://upload.wikimedia.org/wikipedia/de/5/56/Newcastle_United_Logo.svg,Newcastle
+1,Tottenham Hotspur FC,6,5,0,1,15,11,4,7,AWAY,PL,http://upload.wikimedia.org/wikipedia/de/b/b4/Tottenham_Hotspur.svg,Tottenham
+2,Liverpool FC,5,4,1,0,13,8,3,5,AWAY,PL,http://upload.wikimedia.org/wikipedia/de/0/0a/FC_Liverpool.svg,Liverpool
+3,Chelsea FC,4,3,1,0,10,8,1,7,AWAY,PL,http://upload.wikimedia.org/wikipedia/de/5/5c/Chelsea_crest.svg,Chelsea
+4,Arsenal FC,4,3,0,1,9,12,7,5,AWAY,PL,http://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg,Arsenal
+5,Manchester City FC,4,2,2,0,8,8,1,7,AWAY,PL,https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg,Man City
+6,Watford FC,4,2,1,1,7,6,4,2,AWAY,PL,https://upload.wikimedia.org/wikipedia/en/e/e2/Watford.svg,Watford
+7,Manchester United FC,5,2,1,2,7,9,9,0,AWAY,PL,http://upload.wikimedia.org/wikipedia/de/d/da/Manchester_United_FC.svg,Man United
+8,Wolverhampton Wanderers FC,4,2,1,1,7,3,3,0,AWAY,PL,https://upload.wikimedia.org/wikipedia/en/f/fc/Wolverhampton_Wanderers.svg,Wolverhampton
+9,Crystal Palace FC,4,2,0,2,6,5,4,1,AWAY,PL,http://upload.wikimedia.org/wikipedia/de/b/bf/Crystal_Palace_F.C._logo_%282013%29.png,Crystal Palace
+10,Leicester City FC,4,2,0,2,6,7,7,0,AWAY,PL,http://upload.wikimedia.org/wikipedia/en/6/63/Leicester02.png,Leicester City
+11,AFC Bournemouth,4,2,0,2,6,6,7,-1,AWAY,PL,https://upload.wikimedia.org/wikipedia/de/4/41/Afc_bournemouth.svg,Bournemouth
+12,Everton FC,4,1,2,1,5,6,7,-1,AWAY,PL,http://upload.wikimedia.org/wikipedia/de/f/f9/Everton_FC.svg,Everton
+13,Southampton FC,5,1,1,3,4,3,7,-4,AWAY,PL,http://upload.wikimedia.org/wikipedia/de/c/c9/FC_Southampton.svg,Southampton
+14,Brighton & Hove Albion FC,5,1,1,3,4,3,7,-4,AWAY,PL,https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_%26_Hove_Albion_logo.svg,Brighton Hove
+15,Burnley FC,5,1,1,3,4,4,11,-7,AWAY,PL,https://upload.wikimedia.org/wikipedia/en/0/02/Burnley_FC_badge.png,Burnley
+16,West Ham United FC,4,1,0,3,3,4,9,-5,AWAY,PL,http://upload.wikimedia.org/wikipedia/de/e/e0/West_Ham_United_FC.svg,West Ham
+17,Newcastle United FC,4,0,2,2,2,3,5,-2,AWAY,PL,http://upload.wikimedia.org/wikipedia/de/5/56/Newcastle_United_Logo.svg,Newcastle
+18,Huddersfield Town AFC,4,0,2,2,2,4,11,-7,AWAY,PL,https://upload.wikimedia.org/wikipedia/en/5/5a/Huddersfield_Town_A.F.C._logo.svg,Huddersfield
+19,Cardiff City FC,4,0,1,3,1,1,7,-6,AWAY,PL,https://upload.wikimedia.org/wikipedia/en/3/3c/Cardiff_City_crest.svg,Cardiff
+20,Fulham FC,5,0,1,4,1,5,15,-10,AWAY,PL,http://upload.wikimedia.org/wikipedia/de/a/a8/Fulham_fc.svg,Fulham
+1,BV Borussia 09 Dortmund,8,6,2,0,20,27,8,19,TOTAL,BL1,http://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg,Dortmund
+2,SV Werder Bremen,8,5,2,1,17,15,8,7,TOTAL,BL1,http://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg,Bremen
+3,FC Bayern München,8,5,1,2,16,15,9,6,TOTAL,BL1,https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg,Bayern M
+4,RB Leipzig,8,4,3,1,15,16,9,7,TOTAL,BL1,https://upload.wikimedia.org/wikipedia/en/0/04/RB_Leipzig_2014_logo.svg,RB Leipzig
+5,Borussia Mönchengladbach,7,4,2,1,14,15,9,6,TOTAL,BL1,https://upload.wikimedia.org/wikipedia/commons/8/81/Borussia_M%C3%B6nchengladbach_logo.svg,M'gladbach
+6,Hertha BSC,7,4,2,1,14,12,7,5,TOTAL,BL1,https://upload.wikimedia.org/wikipedia/commons/8/81/Hertha_BSC_Logo_2012.svg,Hertha BSC
+7,Eintracht Frankfurt,8,4,1,3,13,19,12,7,TOTAL,BL1,http://upload.wikimedia.org/wikipedia/commons/0/04/Eintracht_Frankfurt_Logo.svg,Frankfurt
+8,TSG 1899 Hoffenheim,8,3,1,4,10,14,13,1,TOTAL,BL1,https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg,Hoffenheim
+9,FC Augsburg,8,2,3,3,9,14,13,1,TOTAL,BL1,http://upload.wikimedia.org/wikipedia/de/b/b5/Logo_FC_Augsburg.svg,Augsburg
+10,1. FSV Mainz 05,7,2,3,2,9,4,4,0,TOTAL,BL1,https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg,Mainz
+11,VfL Wolfsburg,8,2,3,3,9,11,14,-3,TOTAL,BL1,https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo-VfL-Wolfsburg.svg,Wolfsburg
+12,SC Freiburg,7,2,2,3,8,9,13,-4,TOTAL,BL1,http://upload.wikimedia.org/wikipedia/de/f/f1/SC-Freiburg_Logo-neu.svg,Freiburg
+13,Bayer 04 Leverkusen,8,2,2,4,8,9,15,-6,TOTAL,BL1,https://upload.wikimedia.org/wikipedia/en/5/59/Bayer_04_Leverkusen_logo.svg,Leverkusen
+14,1. FC Nürnberg,8,2,2,4,8,8,19,-11,TOTAL,BL1,http://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N%C3%BCrnberg_logo.svg,Nürnberg
+15,Hannover 96,8,1,3,4,6,10,16,-6,TOTAL,BL1,https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg,Hannover
+16,FC Schalke 04,8,2,0,6,6,5,11,-6,TOTAL,BL1,https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg,Schalke
+17,VfB Stuttgart,8,1,2,5,5,6,17,-11,TOTAL,BL1,http://upload.wikimedia.org/wikipedia/commons/a/ab/VfB_Stuttgart_Logo.svg,Stuttgart
+18,TSV Fortuna 95 Düsseldorf,8,1,2,5,5,6,18,-12,TOTAL,BL1,http://upload.wikimedia.org/wikipedia/commons/9/94/Fortuna_D%C3%BCsseldorf.svg,Düsseldorf
+1,BV Borussia 09 Dortmund,4,4,0,0,12,18,5,13,HOME,BL1,http://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg,Dortmund
+2,RB Leipzig,4,3,1,0,10,12,3,9,HOME,BL1,https://upload.wikimedia.org/wikipedia/en/0/04/RB_Leipzig_2014_logo.svg,RB Leipzig
+3,Hertha BSC,3,3,0,0,9,7,2,5,HOME,BL1,https://upload.wikimedia.org/wikipedia/commons/8/81/Hertha_BSC_Logo_2012.svg,Hertha BSC
+4,Borussia Mönchengladbach,3,3,0,0,9,7,2,5,HOME,BL1,https://upload.wikimedia.org/wikipedia/commons/8/81/Borussia_M%C3%B6nchengladbach_logo.svg,M'gladbach
+5,SV Werder Bremen,4,2,2,0,8,7,3,4,HOME,BL1,http://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg,Bremen
+6,1. FSV Mainz 05,4,2,2,0,8,3,1,2,HOME,BL1,https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg,Mainz
+7,Eintracht Frankfurt,4,2,1,1,7,13,5,8,HOME,BL1,http://upload.wikimedia.org/wikipedia/commons/0/04/Eintracht_Frankfurt_Logo.svg,Frankfurt
+8,1. FC Nürnberg,4,2,1,1,7,7,4,3,HOME,BL1,http://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N%C3%BCrnberg_logo.svg,Nürnberg
+9,FC Bayern München,4,2,1,1,7,7,6,1,HOME,BL1,https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg,Bayern M
+10,FC Augsburg,4,1,2,1,5,7,5,2,HOME,BL1,http://upload.wikimedia.org/wikipedia/de/b/b5/Logo_FC_Augsburg.svg,Augsburg
+11,SC Freiburg,4,1,2,1,5,4,5,-1,HOME,BL1,http://upload.wikimedia.org/wikipedia/de/f/f1/SC-Freiburg_Logo-neu.svg,Freiburg
+12,VfL Wolfsburg,5,1,2,2,5,8,11,-3,HOME,BL1,https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo-VfL-Wolfsburg.svg,Wolfsburg
+13,TSG 1899 Hoffenheim,4,1,1,2,4,6,6,0,HOME,BL1,https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg,Hoffenheim
+14,Hannover 96,3,1,1,1,4,4,4,0,HOME,BL1,https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg,Hannover
+15,Bayer 04 Leverkusen,4,1,1,2,4,6,9,-3,HOME,BL1,https://upload.wikimedia.org/wikipedia/en/5/59/Bayer_04_Leverkusen_logo.svg,Leverkusen
+16,VfB Stuttgart,4,1,1,2,4,2,8,-6,HOME,BL1,http://upload.wikimedia.org/wikipedia/commons/a/ab/VfB_Stuttgart_Logo.svg,Stuttgart
+17,TSV Fortuna 95 Düsseldorf,4,1,0,3,3,4,7,-3,HOME,BL1,http://upload.wikimedia.org/wikipedia/commons/9/94/Fortuna_D%C3%BCsseldorf.svg,Düsseldorf
+18,FC Schalke 04,4,1,0,3,3,1,6,-5,HOME,BL1,https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg,Schalke
+1,FC Bayern München,4,3,0,1,9,8,3,5,AWAY,BL1,https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg,Bayern M
+2,SV Werder Bremen,4,3,0,1,9,8,5,3,AWAY,BL1,http://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg,Bremen
+3,BV Borussia 09 Dortmund,4,2,2,0,8,9,3,6,AWAY,BL1,http://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg,Dortmund
+4,TSG 1899 Hoffenheim,4,2,0,2,6,8,7,1,AWAY,BL1,https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg,Hoffenheim
+5,Eintracht Frankfurt,4,2,0,2,6,6,7,-1,AWAY,BL1,http://upload.wikimedia.org/wikipedia/commons/0/04/Eintracht_Frankfurt_Logo.svg,Frankfurt
+6,Borussia Mönchengladbach,4,1,2,1,5,8,7,1,AWAY,BL1,https://upload.wikimedia.org/wikipedia/commons/8/81/Borussia_M%C3%B6nchengladbach_logo.svg,M'gladbach
+7,Hertha BSC,4,1,2,1,5,5,5,0,AWAY,BL1,https://upload.wikimedia.org/wikipedia/commons/8/81/Hertha_BSC_Logo_2012.svg,Hertha BSC
+8,RB Leipzig,4,1,2,1,5,4,6,-2,AWAY,BL1,https://upload.wikimedia.org/wikipedia/en/0/04/RB_Leipzig_2014_logo.svg,RB Leipzig
+9,VfL Wolfsburg,3,1,1,1,4,3,3,0,AWAY,BL1,https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo-VfL-Wolfsburg.svg,Wolfsburg
+10,FC Augsburg,4,1,1,2,4,7,8,-1,AWAY,BL1,http://upload.wikimedia.org/wikipedia/de/b/b5/Logo_FC_Augsburg.svg,Augsburg
+11,Bayer 04 Leverkusen,4,1,1,2,4,3,6,-3,AWAY,BL1,https://upload.wikimedia.org/wikipedia/en/5/59/Bayer_04_Leverkusen_logo.svg,Leverkusen
+12,FC Schalke 04,4,1,0,3,3,4,5,-1,AWAY,BL1,https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg,Schalke
+13,SC Freiburg,3,1,0,2,3,5,8,-3,AWAY,BL1,http://upload.wikimedia.org/wikipedia/de/f/f1/SC-Freiburg_Logo-neu.svg,Freiburg
+14,Hannover 96,5,0,2,3,2,6,12,-6,AWAY,BL1,https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg,Hannover
+15,TSV Fortuna 95 Düsseldorf,4,0,2,2,2,2,11,-9,AWAY,BL1,http://upload.wikimedia.org/wikipedia/commons/9/94/Fortuna_D%C3%BCsseldorf.svg,Düsseldorf
+16,1. FSV Mainz 05,3,0,1,2,1,1,3,-2,AWAY,BL1,https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg,Mainz
+17,VfB Stuttgart,4,0,1,3,1,4,9,-5,AWAY,BL1,http://upload.wikimedia.org/wikipedia/commons/a/ab/VfB_Stuttgart_Logo.svg,Stuttgart
+18,1. FC Nürnberg,4,0,1,3,1,1,15,-14,AWAY,BL1,http://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N%C3%BCrnberg_logo.svg,Nürnberg
+1,Paris Saint-Germain FC,10,10,0,0,30,37,6,31,TOTAL,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/8/86/Paris_Saint-Germain_Logo.svg/130px-Paris_Saint-Germain_Logo.svg,PSG
+2,Lille OSC,10,7,1,2,22,19,8,11,TOTAL,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/6/62/Logo_LOSC_Lille_2018.svg/130px-Logo_LOSC_Lille_2018.svg,Lille OSC
+3,Olympique Lyonnais,10,5,2,3,17,16,12,4,TOTAL,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/e/e2/Olympique_lyonnais_%28logo%29.svg/130px-Olympique_lyonnais_%28logo%29.svg,Olympique Lyon
+4,Olympique de Marseille,9,5,1,3,16,21,16,5,TOTAL,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/4/43/Logo_Olympique_de_Marseille.svg/130px-Logo_Olympique_de_Marseille.svg.png,Marseille
+5,Montpellier HSC,9,4,4,1,16,12,7,5,TOTAL,FL1,https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Montpellier_H%C3%A9rault_Sport_Club_%28logo%2C_2000%29.svg/130px-Montpellier_H%C3%A9rault_Sport_Club_%28logo%2C_2000%29.svg,Montpellier
+6,RC Strasbourg Alsace,10,4,3,3,15,18,14,4,TOTAL,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/1/1a/Racing_Club_de_Strasbourg_Alsace_%28RCSA%29_logo.svg/130px-Racing_Club_de_Strasbourg_Alsace_%28RCSA%29_logo.svg,RC Strasbourg
+7,AS Saint-Étienne,9,4,3,2,15,11,12,-1,TOTAL,FL1,https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_AS_Saint-%C3%89tienne.svg/130px-Logo_AS_Saint-%C3%89tienne.svg.png,Saint-Étienne
+8,FC Girondins de Bordeaux,9,4,2,3,14,13,11,2,TOTAL,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/7/76/Logo_des_Girondins_de_Bordeaux.svg/130px-Logo_des_Girondins_de_Bordeaux.svg,Bordeaux
+9,Toulouse FC,10,3,4,3,13,10,16,-6,TOTAL,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/8/8b/Logo_Toulouse_FC_2018.svg/600px-Logo_Toulouse_FC_2018.svg,Toulouse FC
+10,Angers SCO,10,3,3,4,12,12,13,-1,TOTAL,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/3/34/Logo_SCO_Angers.svg/130px-Logo_SCO_Angers.svg,Angers SCO
+11,Stade Rennais FC 1901,9,3,2,4,11,12,14,-2,TOTAL,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/e/e9/Logo_Stade_Rennais_FC.svg/130px-Logo_Stade_Rennais_FC.svg,Stade Rennes
+12,SM Caen,10,2,5,3,11,10,13,-3,TOTAL,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/7/79/Logo_SM_Caen_2016.svg/130px-Logo_SM_Caen_2016.svg,SM Caen
+13,Stade de Reims,10,2,5,3,11,5,10,-5,TOTAL,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/0/0e/Stade_Reims_1999.svg/130px-Stade_Reims_1999.svg,Stade de Reims
+14,OGC de Nice Côte d'Azur,9,3,2,4,11,7,13,-6,TOTAL,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/b/b1/Logo_OGC_Nice_2013.svg/130px-Logo_OGC_Nice_2013.svg,OGC Nice
+15,Nîmes Olympique,10,2,4,4,10,13,18,-5,TOTAL,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/f/f0/N%C3%AEmes_Olympique_logo_2018.svg/130px-N%C3%AEmes_Olympique_logo_2018.svg,Nîmes Ol.
+16,Dijon Football Côte d'Or,10,3,1,6,10,10,15,-5,TOTAL,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/c/c9/LogoDFCO.svg/130px-LogoDFCO.svg,Dijon FCO
+17,Amiens SC,10,3,1,6,10,11,18,-7,TOTAL,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/e/ec/Logo_Amiens_SC_1998.svg/130px-Logo_Amiens_SC_1998.svg,Amiens SC
+18,FC Nantes,10,2,3,5,9,12,16,-4,TOTAL,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/2/21/Logo_FC_Nantes_2008.svg/130px-Logo_FC_Nantes_2008.svg,FC Nantes
+19,AS Monaco FC,10,1,3,6,6,10,15,-5,TOTAL,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/b/ba/AS_Monaco_FC.svg/130px-AS_Monaco_FC.svg,AS Monaco
+20,En Avant Guingamp,10,1,3,6,6,6,18,-12,TOTAL,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/9/99/En_Avant_de_Guingamp_logo.svg/130px-En_Avant_de_Guingamp_logo.svg,EA Guingamp
+1,Paris Saint-Germain FC,6,6,0,0,18,24,2,22,HOME,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/8/86/Paris_Saint-Germain_Logo.svg/130px-Paris_Saint-Germain_Logo.svg,PSG
+2,Lille OSC,5,5,0,0,15,14,3,11,HOME,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/6/62/Logo_LOSC_Lille_2018.svg/130px-Logo_LOSC_Lille_2018.svg,Lille OSC
+3,Olympique de Marseille,5,4,1,0,13,15,4,11,HOME,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/4/43/Logo_Olympique_de_Marseille.svg/130px-Logo_Olympique_de_Marseille.svg.png,Marseille
+4,Olympique Lyonnais,6,4,1,1,13,11,4,7,HOME,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/e/e2/Olympique_lyonnais_%28logo%29.svg/130px-Olympique_lyonnais_%28logo%29.svg,Olympique Lyon
+5,RC Strasbourg Alsace,5,3,1,1,10,11,6,5,HOME,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/1/1a/Racing_Club_de_Strasbourg_Alsace_%28RCSA%29_logo.svg/130px-Racing_Club_de_Strasbourg_Alsace_%28RCSA%29_logo.svg,RC Strasbourg
+6,AS Saint-Étienne,4,3,1,0,10,6,2,4,HOME,FL1,https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_AS_Saint-%C3%89tienne.svg/130px-Logo_AS_Saint-%C3%89tienne.svg.png,Saint-Étienne
+7,FC Girondins de Bordeaux,5,3,1,1,10,9,6,3,HOME,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/7/76/Logo_des_Girondins_de_Bordeaux.svg/130px-Logo_des_Girondins_de_Bordeaux.svg,Bordeaux
+8,Amiens SC,5,3,0,2,9,10,7,3,HOME,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/e/ec/Logo_Amiens_SC_1998.svg/130px-Logo_Amiens_SC_1998.svg,Amiens SC
+9,Montpellier HSC,5,2,2,1,8,6,3,3,HOME,FL1,https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Montpellier_H%C3%A9rault_Sport_Club_%28logo%2C_2000%29.svg/130px-Montpellier_H%C3%A9rault_Sport_Club_%28logo%2C_2000%29.svg,Montpellier
+10,Toulouse FC,5,2,2,1,8,7,6,1,HOME,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/8/8b/Logo_Toulouse_FC_2018.svg/600px-Logo_Toulouse_FC_2018.svg,Toulouse FC
+11,SM Caen,5,1,4,0,7,6,5,1,HOME,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/7/79/Logo_SM_Caen_2016.svg/130px-Logo_SM_Caen_2016.svg,SM Caen
+12,Stade Rennais FC 1901,4,2,1,1,7,5,4,1,HOME,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/e/e9/Logo_Stade_Rennais_FC.svg/130px-Logo_Stade_Rennais_FC.svg,Stade Rennes
+13,Stade de Reims,5,1,3,1,6,2,2,0,HOME,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/0/0e/Stade_Reims_1999.svg/130px-Stade_Reims_1999.svg,Stade de Reims
+14,FC Nantes,5,1,2,2,5,7,6,1,HOME,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/2/21/Logo_FC_Nantes_2008.svg/130px-Logo_FC_Nantes_2008.svg,FC Nantes
+15,Nîmes Olympique,4,1,2,1,5,5,5,0,HOME,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/f/f0/N%C3%AEmes_Olympique_logo_2018.svg/130px-N%C3%AEmes_Olympique_logo_2018.svg,Nîmes Ol.
+16,Angers SCO,5,1,2,2,5,6,7,-1,HOME,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/3/34/Logo_SCO_Angers.svg/130px-Logo_SCO_Angers.svg,Angers SCO
+17,Dijon Football Côte d'Or,5,1,0,4,3,4,10,-6,HOME,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/c/c9/LogoDFCO.svg/130px-LogoDFCO.svg,Dijon FCO
+18,OGC de Nice Côte d'Azur,4,1,0,3,3,2,9,-7,HOME,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/b/b1/Logo_OGC_Nice_2013.svg/130px-Logo_OGC_Nice_2013.svg,OGC Nice
+19,AS Monaco FC,5,0,2,3,2,4,7,-3,HOME,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/b/ba/AS_Monaco_FC.svg/130px-AS_Monaco_FC.svg,AS Monaco
+20,En Avant Guingamp,4,0,1,3,1,4,9,-5,HOME,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/9/99/En_Avant_de_Guingamp_logo.svg/130px-En_Avant_de_Guingamp_logo.svg,EA Guingamp
+1,Paris Saint-Germain FC,4,4,0,0,12,13,4,9,AWAY,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/8/86/Paris_Saint-Germain_Logo.svg/130px-Paris_Saint-Germain_Logo.svg,PSG
+2,Montpellier HSC,4,2,2,0,8,6,4,2,AWAY,FL1,https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Montpellier_H%C3%A9rault_Sport_Club_%28logo%2C_2000%29.svg/130px-Montpellier_H%C3%A9rault_Sport_Club_%28logo%2C_2000%29.svg,Montpellier
+3,OGC de Nice Côte d'Azur,5,2,2,1,8,5,4,1,AWAY,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/b/b1/Logo_OGC_Nice_2013.svg/130px-Logo_OGC_Nice_2013.svg,OGC Nice
+4,Dijon Football Côte d'Or,5,2,1,2,7,6,5,1,AWAY,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/c/c9/LogoDFCO.svg/130px-LogoDFCO.svg,Dijon FCO
+5,Angers SCO,5,2,1,2,7,6,6,0,AWAY,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/3/34/Logo_SCO_Angers.svg/130px-Logo_SCO_Angers.svg,Angers SCO
+6,Lille OSC,5,2,1,2,7,5,5,0,AWAY,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/6/62/Logo_LOSC_Lille_2018.svg/130px-Logo_LOSC_Lille_2018.svg,Lille OSC
+7,RC Strasbourg Alsace,5,1,2,2,5,7,8,-1,AWAY,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/1/1a/Racing_Club_de_Strasbourg_Alsace_%28RCSA%29_logo.svg/130px-Racing_Club_de_Strasbourg_Alsace_%28RCSA%29_logo.svg,RC Strasbourg
+8,Nîmes Olympique,6,1,2,3,5,8,13,-5,AWAY,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/f/f0/N%C3%AEmes_Olympique_logo_2018.svg/130px-N%C3%AEmes_Olympique_logo_2018.svg,Nîmes Ol.
+9,AS Saint-Étienne,5,1,2,2,5,5,10,-5,AWAY,FL1,https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_AS_Saint-%C3%89tienne.svg/130px-Logo_AS_Saint-%C3%89tienne.svg.png,Saint-Étienne
+10,Stade de Reims,5,1,2,2,5,3,8,-5,AWAY,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/0/0e/Stade_Reims_1999.svg/130px-Stade_Reims_1999.svg,Stade de Reims
+11,Toulouse FC,5,1,2,2,5,3,10,-7,AWAY,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/8/8b/Logo_Toulouse_FC_2018.svg/600px-Logo_Toulouse_FC_2018.svg,Toulouse FC
+12,En Avant Guingamp,6,1,2,3,5,2,9,-7,AWAY,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/9/99/En_Avant_de_Guingamp_logo.svg/130px-En_Avant_de_Guingamp_logo.svg,EA Guingamp
+13,FC Girondins de Bordeaux,4,1,1,2,4,4,5,-1,AWAY,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/7/76/Logo_des_Girondins_de_Bordeaux.svg/130px-Logo_des_Girondins_de_Bordeaux.svg,Bordeaux
+14,AS Monaco FC,5,1,1,3,4,6,8,-2,AWAY,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/b/ba/AS_Monaco_FC.svg/130px-AS_Monaco_FC.svg,AS Monaco
+15,Stade Rennais FC 1901,5,1,1,3,4,7,10,-3,AWAY,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/e/e9/Logo_Stade_Rennais_FC.svg/130px-Logo_Stade_Rennais_FC.svg,Stade Rennes
+16,Olympique Lyonnais,4,1,1,2,4,5,8,-3,AWAY,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/e/e2/Olympique_lyonnais_%28logo%29.svg/130px-Olympique_lyonnais_%28logo%29.svg,Olympique Lyon
+17,SM Caen,5,1,1,3,4,4,8,-4,AWAY,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/7/79/Logo_SM_Caen_2016.svg/130px-Logo_SM_Caen_2016.svg,SM Caen
+18,FC Nantes,5,1,1,3,4,5,10,-5,AWAY,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/2/21/Logo_FC_Nantes_2008.svg/130px-Logo_FC_Nantes_2008.svg,FC Nantes
+19,Olympique de Marseille,4,1,0,3,3,6,12,-6,AWAY,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/4/43/Logo_Olympique_de_Marseille.svg/130px-Logo_Olympique_de_Marseille.svg.png,Marseille
+20,Amiens SC,5,0,1,4,1,1,11,-10,AWAY,FL1,https://upload.wikimedia.org/wikipedia/fr/thumb/e/ec/Logo_Amiens_SC_1998.svg/130px-Logo_Amiens_SC_1998.svg,Amiens SC
+1,Juventus FC,9,8,1,0,25,19,6,13,TOTAL,SA,http://upload.wikimedia.org/wikipedia/de/d/d2/Juventus_Turin.svg,Juventus
+2,SSC Napoli,9,7,0,2,21,18,10,8,TOTAL,SA,http://upload.wikimedia.org/wikipedia/commons/2/28/S.S.C._Napoli_logo.svg,Napoli
+3,FC Internazionale Milano,8,5,1,2,16,12,6,6,TOTAL,SA,https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Inter_Milan.svg/316px-Inter_Milan.svg,Inter
+4,SS Lazio,8,5,0,3,15,11,9,2,TOTAL,SA,http://upload.wikimedia.org/wikipedia/de/thumb/4/47/Lazio_Rom.svg/500px-Lazio_Rom.svg.png,Lazio
+5,UC Sampdoria,8,4,2,2,14,12,4,8,TOTAL,SA,,Sampdoria
+6,AS Roma,9,4,2,3,14,16,12,4,TOTAL,SA,http://upload.wikimedia.org/wikipedia/de/3/32/AS_Rom.svg,Roma
+7,ACF Fiorentina,8,4,1,3,13,14,6,8,TOTAL,SA,https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/ACF_Fiorentina_2.svg/261px-ACF_Fiorentina_2.svg,Fiorentina
+8,US Sassuolo Calcio,8,4,1,3,13,15,14,1,TOTAL,SA,http://upload.wikimedia.org/wikipedia/de/a/a3/US_Sassuolo_Calcio.svg,Sassuolo
+9,Parma Calcio 1913,8,4,1,3,13,10,9,1,TOTAL,SA,http://upload.wikimedia.org/wikipedia/de/e/e2/FC_Parma.svg,Parma
+10,Genoa CFC,8,4,1,3,13,13,15,-2,TOTAL,SA,http://upload.wikimedia.org/wikipedia/de/7/76/Genoa_CFC.svg,Genoa
+11,AC Milan,7,3,3,1,12,15,10,5,TOTAL,SA,http://upload.wikimedia.org/wikipedia/de/9/9e/AC_Mailand_Logo.svg,Milan
+12,Torino FC,8,3,3,2,12,9,9,0,TOTAL,SA,http://upload.wikimedia.org/wikipedia/de/2/2e/Torino_FC_Logo.svg,Torino
+13,SPAL 2013,9,4,0,5,12,8,10,-2,TOTAL,SA,,SPAL 2013
+14,Cagliari Calcio,8,2,3,3,9,6,9,-3,TOTAL,SA,http://upload.wikimedia.org/wikipedia/de/3/3d/Cagliari_Calcio.svg,Cagliari
+15,Udinese Calcio,9,2,2,5,8,8,13,-5,TOTAL,SA,http://upload.wikimedia.org/wikipedia/de/b/b1/Udinese_Calcio.svg,Udinese
+16,Bologna FC 1909,8,2,1,5,7,4,10,-6,TOTAL,SA,http://upload.wikimedia.org/wikipedia/de/9/92/FC_Bologna.svg,Bologna
+17,Atalanta BC,8,1,3,4,6,9,11,-2,TOTAL,SA,http://upload.wikimedia.org/wikipedia/de/2/28/Atalanta_BC.svg,Atalanta
+18,Empoli FC,8,1,2,5,5,5,10,-5,TOTAL,SA,http://upload.wikimedia.org/wikipedia/de/4/42/Logo_FC_Empoli.svg,Empoli
+19,Frosinone Calcio,8,0,1,7,1,3,21,-18,TOTAL,SA,https://upload.wikimedia.org/wikipedia/it/c/c3/Frosinonestemma.png,Frosinone
+20,AC Chievo Verona,8,0,2,6,-1,6,19,-13,TOTAL,SA,http://upload.wikimedia.org/wikipedia/de/3/3f/AC_Chievo_Verona.svg,Chievo
+1,Juventus FC,5,4,1,0,13,10,3,7,HOME,SA,http://upload.wikimedia.org/wikipedia/de/d/d2/Juventus_Turin.svg,Juventus
+2,ACF Fiorentina,4,4,0,0,12,12,1,11,HOME,SA,https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/ACF_Fiorentina_2.svg/261px-ACF_Fiorentina_2.svg,Fiorentina
+3,SSC Napoli,4,4,0,0,12,9,2,7,HOME,SA,http://upload.wikimedia.org/wikipedia/commons/2/28/S.S.C._Napoli_logo.svg,Napoli
+4,SS Lazio,4,3,0,1,9,7,3,4,HOME,SA,http://upload.wikimedia.org/wikipedia/de/thumb/4/47/Lazio_Rom.svg/500px-Lazio_Rom.svg.png,Lazio
+5,US Sassuolo Calcio,4,3,0,1,9,10,8,2,HOME,SA,http://upload.wikimedia.org/wikipedia/de/a/a3/US_Sassuolo_Calcio.svg,Sassuolo
+6,Genoa CFC,4,3,0,1,9,6,4,2,HOME,SA,http://upload.wikimedia.org/wikipedia/de/7/76/Genoa_CFC.svg,Genoa
+7,AS Roma,5,2,2,1,8,12,8,4,HOME,SA,http://upload.wikimedia.org/wikipedia/de/3/32/AS_Rom.svg,Roma
+8,AC Milan,3,2,1,0,7,7,4,3,HOME,SA,http://upload.wikimedia.org/wikipedia/de/9/9e/AC_Mailand_Logo.svg,Milan
+9,UC Sampdoria,4,2,1,1,7,6,3,3,HOME,SA,,Sampdoria
+10,FC Internazionale Milano,4,2,1,1,7,6,4,2,HOME,SA,https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Inter_Milan.svg/316px-Inter_Milan.svg,Inter
+11,Parma Calcio 1913,4,2,1,1,7,6,4,2,HOME,SA,http://upload.wikimedia.org/wikipedia/de/e/e2/FC_Parma.svg,Parma
+12,Cagliari Calcio,4,1,3,0,6,5,3,2,HOME,SA,http://upload.wikimedia.org/wikipedia/de/3/3d/Cagliari_Calcio.svg,Cagliari
+13,SPAL 2013,4,2,0,2,6,4,4,0,HOME,SA,,SPAL 2013
+14,Torino FC,4,2,0,2,6,5,6,-1,HOME,SA,http://upload.wikimedia.org/wikipedia/de/2/2e/Torino_FC_Logo.svg,Torino
+15,Bologna FC 1909,4,2,0,2,6,4,5,-1,HOME,SA,http://upload.wikimedia.org/wikipedia/de/9/92/FC_Bologna.svg,Bologna
+16,Atalanta BC,4,1,1,2,4,4,2,2,HOME,SA,http://upload.wikimedia.org/wikipedia/de/2/28/Atalanta_BC.svg,Atalanta
+17,Empoli FC,4,1,1,2,4,3,4,-1,HOME,SA,http://upload.wikimedia.org/wikipedia/de/4/42/Logo_FC_Empoli.svg,Empoli
+18,Udinese Calcio,5,1,1,3,4,3,8,-5,HOME,SA,http://upload.wikimedia.org/wikipedia/de/b/b1/Udinese_Calcio.svg,Udinese
+19,AC Chievo Verona,4,0,1,3,1,2,6,-4,HOME,SA,http://upload.wikimedia.org/wikipedia/de/3/3f/AC_Chievo_Verona.svg,Chievo
+20,Frosinone Calcio,4,0,1,3,1,1,9,-8,HOME,SA,https://upload.wikimedia.org/wikipedia/it/c/c3/Frosinonestemma.png,Frosinone
+1,Juventus FC,4,4,0,0,12,9,3,6,AWAY,SA,http://upload.wikimedia.org/wikipedia/de/d/d2/Juventus_Turin.svg,Juventus
+2,FC Internazionale Milano,4,3,0,1,9,6,2,4,AWAY,SA,https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Inter_Milan.svg/316px-Inter_Milan.svg,Inter
+3,SSC Napoli,5,3,0,2,9,9,8,1,AWAY,SA,http://upload.wikimedia.org/wikipedia/commons/2/28/S.S.C._Napoli_logo.svg,Napoli
+4,UC Sampdoria,4,2,1,1,7,6,1,5,AWAY,SA,,Sampdoria
+5,Torino FC,4,1,3,0,6,4,3,1,AWAY,SA,http://upload.wikimedia.org/wikipedia/de/2/2e/Torino_FC_Logo.svg,Torino
+6,AS Roma,4,2,0,2,6,4,4,0,AWAY,SA,http://upload.wikimedia.org/wikipedia/de/3/32/AS_Rom.svg,Roma
+7,Parma Calcio 1913,4,2,0,2,6,4,5,-1,AWAY,SA,http://upload.wikimedia.org/wikipedia/de/e/e2/FC_Parma.svg,Parma
+8,SS Lazio,4,2,0,2,6,4,6,-2,AWAY,SA,http://upload.wikimedia.org/wikipedia/de/thumb/4/47/Lazio_Rom.svg/500px-Lazio_Rom.svg.png,Lazio
+9,SPAL 2013,5,2,0,3,6,4,6,-2,AWAY,SA,,SPAL 2013
+10,AC Milan,4,1,2,1,5,8,6,2,AWAY,SA,http://upload.wikimedia.org/wikipedia/de/9/9e/AC_Mailand_Logo.svg,Milan
+11,Udinese Calcio,4,1,1,2,4,5,5,0,AWAY,SA,http://upload.wikimedia.org/wikipedia/de/b/b1/Udinese_Calcio.svg,Udinese
+12,US Sassuolo Calcio,4,1,1,2,4,5,6,-1,AWAY,SA,http://upload.wikimedia.org/wikipedia/de/a/a3/US_Sassuolo_Calcio.svg,Sassuolo
+13,Genoa CFC,4,1,1,2,4,7,11,-4,AWAY,SA,http://upload.wikimedia.org/wikipedia/de/7/76/Genoa_CFC.svg,Genoa
+14,Cagliari Calcio,4,1,0,3,3,1,6,-5,AWAY,SA,http://upload.wikimedia.org/wikipedia/de/3/3d/Cagliari_Calcio.svg,Cagliari
+15,Atalanta BC,4,0,2,2,2,5,9,-4,AWAY,SA,http://upload.wikimedia.org/wikipedia/de/2/28/Atalanta_BC.svg,Atalanta
+16,ACF Fiorentina,4,0,1,3,1,2,5,-3,AWAY,SA,https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/ACF_Fiorentina_2.svg/261px-ACF_Fiorentina_2.svg,Fiorentina
+17,Empoli FC,4,0,1,3,1,2,6,-4,AWAY,SA,http://upload.wikimedia.org/wikipedia/de/4/42/Logo_FC_Empoli.svg,Empoli
+18,Bologna FC 1909,4,0,1,3,1,0,5,-5,AWAY,SA,http://upload.wikimedia.org/wikipedia/de/9/92/FC_Bologna.svg,Bologna
+19,AC Chievo Verona,4,0,1,3,1,4,13,-9,AWAY,SA,http://upload.wikimedia.org/wikipedia/de/3/3f/AC_Chievo_Verona.svg,Chievo
+20,Frosinone Calcio,4,0,0,4,0,2,12,-10,AWAY,SA,https://upload.wikimedia.org/wikipedia/it/c/c3/Frosinonestemma.png,Frosinone
+1,FC Barcelona,9,5,3,1,18,23,11,12,TOTAL,PD,http://upload.wikimedia.org/wikipedia/de/a/aa/Fc_barcelona.svg,Barcelona
+2,Deportivo Alavés,9,5,2,2,17,12,8,4,TOTAL,PD,http://upload.wikimedia.org/wikipedia/en/2/2e/Deportivo_Alaves_logo.svg,Alavés
+3,Sevilla FC,9,5,1,3,16,20,12,8,TOTAL,PD,http://upload.wikimedia.org/wikipedia/en/8/86/Sevilla_cf_200px.png,Sevilla
+4,Club Atlético de Madrid,9,4,4,1,16,10,5,5,TOTAL,PD,http://upload.wikimedia.org/wikipedia/de/c/c1/Atletico_Madrid_logo.svg,Club Atlético
+5,Real Madrid CF,9,4,2,3,14,13,9,4,TOTAL,PD,http://upload.wikimedia.org/wikipedia/de/3/3f/Real_Madrid_Logo.svg,Real Madrid
+6,RCD Espanyol de Barcelona,8,4,2,2,14,11,7,4,TOTAL,PD,http://upload.wikimedia.org/wikipedia/de/a/a7/RCD_Espanyol_De_Barcelona.svg,Espanyol
+7,Levante UD,9,4,1,4,13,14,15,-1,TOTAL,PD,http://upload.wikimedia.org/wikipedia/de/1/1f/Levante_ud.svg,Levante
+8,Real Valladolid CF,8,3,3,2,12,7,6,1,TOTAL,PD,http://upload.wikimedia.org/wikipedia/de/6/6e/Real_Valladolid_Logo.svg,Valladolid
+9,Real Betis Balompié,8,3,3,2,12,5,6,-1,TOTAL,PD,http://upload.wikimedia.org/wikipedia/de/4/43/Real_Betis.svg,Real Betis
+10,Real Sociedad de Fútbol,8,3,2,3,11,12,11,1,TOTAL,PD,http://upload.wikimedia.org/wikipedia/de/5/55/Real_Sociedad_San_Sebasti%C3%A1n.svg,Real Sociedad
+11,RC Celta de Vigo,9,2,4,3,10,13,13,0,TOTAL,PD,http://upload.wikimedia.org/wikipedia/de/0/0c/Celta_Vigo.svg,Celta Vigo
+12,Valencia CF,9,1,7,1,10,7,8,-1,TOTAL,PD,http://upload.wikimedia.org/wikipedia/de/7/75/FC_Valencia.svg,Valencia
+13,SD Eibar,8,3,1,4,10,9,12,-3,TOTAL,PD,http://upload.wikimedia.org/wikipedia/en/7/75/SD_Eibar_logo.svg,Eibar
+14,Villarreal CF,9,2,3,4,9,7,8,-1,TOTAL,PD,http://upload.wikimedia.org/wikipedia/de/7/70/Villarreal_CF_logo.svg,Villarreal
+15,Getafe CF,8,2,3,3,9,6,7,-1,TOTAL,PD,https://upload.wikimedia.org/wikipedia/en/7/7f/Getafe_logo.png,Getafe
+16,Girona FC,8,2,3,3,9,10,13,-3,TOTAL,PD,http://upload.wikimedia.org/wikipedia/en/9/90/For_article_Girona_FC.svg,Girona FC
+17,CD Leganés,9,2,2,5,8,8,13,-5,TOTAL,PD,http://upload.wikimedia.org/wikipedia/en/thumb/0/02/Club_Deportivo_Legan%C3%A9s.png/180px-Club_Deportivo_Legan%C3%A9s.png,Leganés
+18,Athletic Club,7,1,4,2,7,9,13,-4,TOTAL,PD,http://upload.wikimedia.org/wikipedia/de/7/7f/Athletic_Club_Bilbao.svg,Athletic Club
+19,Rayo Vallecano de Madrid,7,1,2,4,5,7,15,-8,TOTAL,PD,http://upload.wikimedia.org/wikipedia/de/1/12/Rayo_vallecano_madrid.svg,Rayo Vallecano
+20,SD Huesca,8,1,2,5,5,7,18,-11,TOTAL,PD,https://upload.wikimedia.org/wikipedia/en/1/11/Sd_huesca.png,Huesca
+1,RCD Espanyol de Barcelona,4,4,0,0,12,7,1,6,HOME,PD,http://upload.wikimedia.org/wikipedia/de/a/a7/RCD_Espanyol_De_Barcelona.svg,Espanyol
+2,FC Barcelona,5,3,2,0,11,18,7,11,HOME,PD,http://upload.wikimedia.org/wikipedia/de/a/aa/Fc_barcelona.svg,Barcelona
+3,Real Madrid CF,5,3,1,1,10,8,3,5,HOME,PD,http://upload.wikimedia.org/wikipedia/de/3/3f/Real_Madrid_Logo.svg,Real Madrid
+4,Club Atlético de Madrid,4,3,1,0,10,6,1,5,HOME,PD,http://upload.wikimedia.org/wikipedia/de/c/c1/Atletico_Madrid_logo.svg,Club Atlético
+5,Deportivo Alavés,4,2,2,0,8,4,2,2,HOME,PD,http://upload.wikimedia.org/wikipedia/en/2/2e/Deportivo_Alaves_logo.svg,Alavés
+6,Sevilla FC,4,2,1,1,7,5,3,2,HOME,PD,http://upload.wikimedia.org/wikipedia/en/8/86/Sevilla_cf_200px.png,Sevilla
+7,CD Leganés,4,2,1,1,7,5,4,1,HOME,PD,http://upload.wikimedia.org/wikipedia/en/thumb/0/02/Club_Deportivo_Legan%C3%A9s.png/180px-Club_Deportivo_Legan%C3%A9s.png,Leganés
+8,Real Betis Balompié,4,2,1,1,7,4,5,-1,HOME,PD,http://upload.wikimedia.org/wikipedia/de/4/43/Real_Betis.svg,Real Betis
+9,RC Celta de Vigo,5,1,3,1,6,7,6,1,HOME,PD,http://upload.wikimedia.org/wikipedia/de/0/0c/Celta_Vigo.svg,Celta Vigo
+10,Real Valladolid CF,4,2,0,2,6,3,3,0,HOME,PD,http://upload.wikimedia.org/wikipedia/de/6/6e/Real_Valladolid_Logo.svg,Valladolid
+11,SD Eibar,4,2,0,2,6,5,6,-1,HOME,PD,http://upload.wikimedia.org/wikipedia/en/7/75/SD_Eibar_logo.svg,Eibar
+12,Valencia CF,5,0,5,0,5,4,4,0,HOME,PD,http://upload.wikimedia.org/wikipedia/de/7/75/FC_Valencia.svg,Valencia
+13,Athletic Club,5,1,2,2,5,6,10,-4,HOME,PD,http://upload.wikimedia.org/wikipedia/de/7/7f/Athletic_Club_Bilbao.svg,Athletic Club
+14,Getafe CF,4,1,1,2,4,2,3,-1,HOME,PD,https://upload.wikimedia.org/wikipedia/en/7/7f/Getafe_logo.png,Getafe
+15,Levante UD,4,1,1,2,4,7,11,-4,HOME,PD,http://upload.wikimedia.org/wikipedia/de/1/1f/Levante_ud.svg,Levante
+16,Girona FC,5,1,1,3,4,6,10,-4,HOME,PD,http://upload.wikimedia.org/wikipedia/en/9/90/For_article_Girona_FC.svg,Girona FC
+17,Villarreal CF,5,0,2,3,2,2,5,-3,HOME,PD,http://upload.wikimedia.org/wikipedia/de/7/70/Villarreal_CF_logo.svg,Villarreal
+18,Real Sociedad de Fútbol,3,0,1,2,1,3,5,-2,HOME,PD,http://upload.wikimedia.org/wikipedia/de/5/55/Real_Sociedad_San_Sebasti%C3%A1n.svg,Real Sociedad
+19,SD Huesca,3,0,1,2,1,1,3,-2,HOME,PD,https://upload.wikimedia.org/wikipedia/en/1/11/Sd_huesca.png,Huesca
+20,Rayo Vallecano de Madrid,3,0,1,2,1,4,11,-7,HOME,PD,http://upload.wikimedia.org/wikipedia/de/1/12/Rayo_vallecano_madrid.svg,Rayo Vallecano
+1,Real Sociedad de Fútbol,5,3,1,1,10,9,6,3,AWAY,PD,http://upload.wikimedia.org/wikipedia/de/5/55/Real_Sociedad_San_Sebasti%C3%A1n.svg,Real Sociedad
+2,Sevilla FC,5,3,0,2,9,15,9,6,AWAY,PD,http://upload.wikimedia.org/wikipedia/en/8/86/Sevilla_cf_200px.png,Sevilla
+3,Levante UD,5,3,0,2,9,7,4,3,AWAY,PD,http://upload.wikimedia.org/wikipedia/de/1/1f/Levante_ud.svg,Levante
+4,Deportivo Alavés,5,3,0,2,9,8,6,2,AWAY,PD,http://upload.wikimedia.org/wikipedia/en/2/2e/Deportivo_Alaves_logo.svg,Alavés
+5,Villarreal CF,4,2,1,1,7,5,3,2,AWAY,PD,http://upload.wikimedia.org/wikipedia/de/7/70/Villarreal_CF_logo.svg,Villarreal
+6,FC Barcelona,4,2,1,1,7,5,4,1,AWAY,PD,http://upload.wikimedia.org/wikipedia/de/a/aa/Fc_barcelona.svg,Barcelona
+7,Real Valladolid CF,4,1,3,0,6,4,3,1,AWAY,PD,http://upload.wikimedia.org/wikipedia/de/6/6e/Real_Valladolid_Logo.svg,Valladolid
+8,Club Atlético de Madrid,5,1,3,1,6,4,4,0,AWAY,PD,http://upload.wikimedia.org/wikipedia/de/c/c1/Atletico_Madrid_logo.svg,Club Atlético
+9,Girona FC,3,1,2,0,5,4,3,1,AWAY,PD,http://upload.wikimedia.org/wikipedia/en/9/90/For_article_Girona_FC.svg,Girona FC
+10,Getafe CF,4,1,2,1,5,4,4,0,AWAY,PD,https://upload.wikimedia.org/wikipedia/en/7/7f/Getafe_logo.png,Getafe
+11,Real Betis Balompié,4,1,2,1,5,1,1,0,AWAY,PD,http://upload.wikimedia.org/wikipedia/de/4/43/Real_Betis.svg,Real Betis
+12,Valencia CF,4,1,2,1,5,3,4,-1,AWAY,PD,http://upload.wikimedia.org/wikipedia/de/7/75/FC_Valencia.svg,Valencia
+13,RC Celta de Vigo,4,1,1,2,4,6,7,-1,AWAY,PD,http://upload.wikimedia.org/wikipedia/de/0/0c/Celta_Vigo.svg,Celta Vigo
+14,Real Madrid CF,4,1,1,2,4,5,6,-1,AWAY,PD,http://upload.wikimedia.org/wikipedia/de/3/3f/Real_Madrid_Logo.svg,Real Madrid
+15,Rayo Vallecano de Madrid,4,1,1,2,4,3,4,-1,AWAY,PD,http://upload.wikimedia.org/wikipedia/de/1/12/Rayo_vallecano_madrid.svg,Rayo Vallecano
+16,SD Eibar,4,1,1,2,4,4,6,-2,AWAY,PD,http://upload.wikimedia.org/wikipedia/en/7/75/SD_Eibar_logo.svg,Eibar
+17,SD Huesca,5,1,1,3,4,6,15,-9,AWAY,PD,https://upload.wikimedia.org/wikipedia/en/1/11/Sd_huesca.png,Huesca
+18,Athletic Club,2,0,2,0,2,3,3,0,AWAY,PD,http://upload.wikimedia.org/wikipedia/de/7/7f/Athletic_Club_Bilbao.svg,Athletic Club
+19,RCD Espanyol de Barcelona,4,0,2,2,2,4,6,-2,AWAY,PD,http://upload.wikimedia.org/wikipedia/de/a/a7/RCD_Espanyol_De_Barcelona.svg,Espanyol
+20,CD Leganés,5,0,1,4,1,3,9,-6,AWAY,PD,http://upload.wikimedia.org/wikipedia/en/thumb/0/02/Club_Deportivo_Legan%C3%A9s.png/180px-Club_Deportivo_Legan%C3%A9s.png,Leganés
