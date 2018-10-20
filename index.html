@@ -80,8 +80,6 @@
         var date_ = date.getDate()
         var year = date.getFullYear()
         return(`${day}, ${month} ${date_} ${year}`)}
-      
-
 
 
       function  trans(sortkey,i){
@@ -705,7 +703,7 @@
          .attr('r',3)
          .attr('fill','silver')
          .attr('cy',-4.7)
-         .attr('cx',projected_margin+(num_games[d.l_id])*(d.points/d.playedGames))
+         .attr('cx',projected_margin+(num_games[d.l_id])*(d.points/d.playedGames)*.8)
 
          
             // Current Points
