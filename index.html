@@ -635,14 +635,14 @@
           var bubble = svg.append('g')
              .attr('id','tooltipz')
              .attr("transform", function(){
-              /*     
-              if (k.matchday < 34){
+                 
+            //  if (k.matchday < 34){
               return("translate(" + circ_x + "," + circ_y + ")")
-                }
-              else{
-              */
-                return("translate(" + (circ_x - (circ_r*(Math.sqrt(2)/2))-(75 + (k.homeTeam.length + k.awayTeam.length)*5.5) +1.5) + "," + circ_y + ")")})
-           // })  
+                })
+              //else{
+              
+               // return("translate(" + (circ_x - (circ_r*(Math.sqrt(2)/2))-(75 + (k.homeTeam.length + k.awayTeam.length)*5.5) +1.5) + "," + circ_y + ")")})
+          // })  
 
              bubble
              .append('rect')
