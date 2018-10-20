@@ -236,11 +236,6 @@
         .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
         .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
 
-
-
-
-
-
       var filters = ['TOTAL','HOME','AWAY']
        var x_locs_ = [176,218,270,455]
       var league_ids = ['PL','BL1','PD','SA','FL1']
@@ -640,12 +635,14 @@
           var bubble = svg.append('g')
              .attr('id','tooltipz')
              .attr("transform", function(){
+              /*     
               if (k.matchday < 34){
               return("translate(" + circ_x + "," + circ_y + ")")
                 }
               else{
+              */
                 return("translate(" + (circ_x - (circ_r*(Math.sqrt(2)/2))-(75 + (k.homeTeam.length + k.awayTeam.length)*5.5) +1.5) + "," + circ_y + ")")}
-            })  
+           // })  
 
              bubble
              .append('rect')
