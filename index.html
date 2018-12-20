@@ -714,7 +714,7 @@
          .attr('r',3)
          .attr('fill','silver')
          .attr('cy',-4.8)
-         .attr('cx',projected_margin+(num_games[d.l_id])*(d.points/d.playedGames)*.95) // Subtract half a radius
+         .attr('cx',projected_margin+(num_games[d.l_id])*(d.points/d.playedGames)) // Subtract half a radius
 
          
             // Current Points
@@ -729,7 +729,7 @@
          .attr('r',4)
          .attr('fill',scales['points'](d.points))
          .attr('cy',-4.7)
-         .attr('cx',projected_margin+d.points*1.1)
+         .attr('cx',projected_margin+d.points+2)
 
 })
 }
